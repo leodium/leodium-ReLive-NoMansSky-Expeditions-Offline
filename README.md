@@ -2,7 +2,7 @@
 
 >Replay ALL No Man's Sky Expeditions
 
-You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released
+You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released.
 
 Introduced with the Expeditions update, this mode features a series of time-limited events that begin at a fixed point in the universe. This allows the community to "embark on a shared journey".
 
