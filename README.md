@@ -5,6 +5,7 @@
 You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released.
 
 <b>Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers! </b>
+
 <i>We are Brave and Fearless Hero Travellers ... No need for CheatMode</i>
 
 Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...
