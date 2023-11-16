@@ -18,7 +18,7 @@ Each expedition is built around a series of milestones. These objectives can be 
 - Then download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - Replace the file in your [cache] directory with the one you've just uploaded
 
-    -*Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache*
+  -*Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache*
 
   -*Steam Mac : ~/Library/Application Support/HelloGames/NMS/st_{64BitSteamID}/cache*
 
