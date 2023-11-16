@@ -20,6 +20,6 @@ Each expedition is built around a series of milestones. These objectives can be 
 - Restart "No Man's Sky" in offline mode
 
 <b>Details</b>
-- Modification of the access period
+- Modification of the access period so that you can access it whenever you want, with no time limit.
 - Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...
 - Changed the number of Tech slots in the exosuit to correct the fact that, at the start, the technologies were in the normal inventory (so remember to move/replace them at the start of the Expedition if necessary).
