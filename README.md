@@ -1,4 +1,4 @@
-# ReLive-NoMansSky-Expeditions-Offline
+# ReLive-NoMansSky-Expeditions-Offline v1.1
 
 > :trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket:
 
