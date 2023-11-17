@@ -4,8 +4,12 @@
 
 You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released.
 
-<b>Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers! </b>
+Here is the directory of the **REDUX versions of Expeditions**, the latest stable versions offered by HelloGames.
+Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory.
 
+**It is preferable to load the Redux versions. The content is almost identical and the rewards are strictly the same.**
+
+<b>Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers! </b>
 <i>We are Brave and Fearless Hero Travellers ... No need for CheatMode</i>
 
 Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...
@@ -32,3 +36,11 @@ Each expedition is built around a series of milestones. These objectives can be 
 - Modification of the access period so that you can access it whenever you want, with no time limit.
 - <b>Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...</b>
 - Changed the number of Tech slots in the exosuit to correct the fact that, at the start, the technologies were in the normal inventory (so remember to move/replace them at the start of the Expedition if necessary).
+
+**Information**
+- https://nomanssky.fandom.com/wiki/List_of_Expeditions
+- https://app.nmsassistant.com/helloGames/seasonExpedition
+
+**Redux News**
+- https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
+- https://www.nomanssky.com/2021/11/expeditions-revisited/
