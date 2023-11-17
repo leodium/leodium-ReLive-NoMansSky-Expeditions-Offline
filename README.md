@@ -5,6 +5,8 @@
 
 **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
 
+![alt text](https://raw.githubusercontent.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/main/NMS_ExpeditionsOffline_mini.jpeg?raw=true)
+
 You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released. Introduced with the Expeditions update, this mode features a series of time-limited events that begin at a fixed point in the universe. This allows the community to "embark on a shared journey". Each expedition is built around a series of milestones. These objectives can be achieved in any order, allowing players to obtain specific rewards, meet other players and experiment with different ways of playing.
 
 Here is the directory of the **REDUX versions of Expeditions**, the latest stable versions offered by HelloGames.
