@@ -1,6 +1,7 @@
 # ReLive-NoMansSky-Expeditions-Offline v1.1
 
 > :trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket:
+<i>with a simple copy/paste of a file into a directory ... No modification/influence on saves !!! No intervention on game files ...</i>
 
 
 **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
@@ -18,7 +19,6 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 <i>We are Brave and Fearless Hero Travellers ... No need for CheatMode</i>
 
 # How do you do this?
-<i>Just copy/paste a file into a directory ... No modification/influence on saves !!! No intervention on game files ...</i>
 - First, set your game software to "Offline".
 - Then download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - Replace the file in your [cache] directory with the one you've just uploaded
