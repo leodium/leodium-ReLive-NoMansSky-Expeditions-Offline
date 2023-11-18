@@ -5,7 +5,7 @@ StartingSuitTechSlots value --> 8 (to have Tech slots available since they were 
 
 Bug ?
 ---
-Auto-completion of Stage 07 of Phase 3: "Emerald dreams" (Visiting a green star) because the starting planet appears to be a green system
+None recorded to date. Let me know if you have one :p
 
 How do you do it?
 ------------------
