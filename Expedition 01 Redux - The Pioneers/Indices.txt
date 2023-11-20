@@ -1,0 +1,5 @@
+Indices
+
+- Anomaly detectors in the rewards (x3)
+- Rewards include an abandoned cargo detector.
+- For the 20-second flight: either find a planet with "low" gravity, or a planet with gravitational storms (dissonant).
