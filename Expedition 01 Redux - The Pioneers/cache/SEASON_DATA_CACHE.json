@@ -3067,4 +3067,8 @@
   "CompatibleWithState": true,
   "SeasonType": 1,
   "DisplayNumber": 1
+}{
+   // For informations
+  "Project": "ReLive-NoMansSky-Expeditions-Offline : Project created to enjoy No Man's Sky Expeditions without cheating for an "unlimited" period of time.",
+  "Modifier": "ByLeodium - https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline",
 }
