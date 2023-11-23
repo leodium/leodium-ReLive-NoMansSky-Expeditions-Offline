@@ -1,4 +1,4 @@
-Indices
+Hints & Tips
 
 - Anomaly detectors in the rewards (x3)
 - Rewards include an abandoned cargo detector.
