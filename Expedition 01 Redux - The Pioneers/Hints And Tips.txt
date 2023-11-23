@@ -1,0 +1,9 @@
+Indices
+
+- Anomaly detectors in the rewards (x3)
+- Rewards include an abandoned cargo detector.
+- For the 20-second flight: either find a planet with "low" gravity, or a planet with gravitational storms (dissonant).
+- Build your reputation among the Merchants gradually from the first stage in each station --> You must increase to 16/16.
+- If you can, increase the size of your suit's inventory at each station (technology or inventory).
+- You can only 'find' an abandoned system by 'arriving' in it without going through a planetary portal. There's no point in finding coordinates on a site and teleporting there.  Abandoned systems will only appear as (abandoned) when you visit them, otherwise they will look like ordinary systems on the galactic map. With a conflict scanner and an economy scanner installed, they will always have a low economy rating and no conflict rating (not available).
+- Storm Crystals can be harvested from planets with extreme weather conditions with activated minerals, and only look for them during a storm. In "calm weather", they are not found/indicated by the multi-tool scanner.

@@ -1,7 +1,0 @@
-Indices
-
-- Anomaly detectors in the rewards (x3)
-- Rewards include an abandoned cargo detector.
-- For the 20-second flight: either find a planet with "low" gravity, or a planet with gravitational storms (dissonant).
-- Build your reputation among the Merchants gradually from the first stage in each station --> You must increase to 16/16.
-- If you can, increase the size of your suit's inventory at each station (technology or inventory).
