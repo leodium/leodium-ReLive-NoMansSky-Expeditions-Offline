@@ -14,6 +14,6 @@ Hints & Tips
 
 Help/Spoilers on the Abandoned System & Storm Crystals
 
-*** To reach an abandoned system, you can go to this planet xxxx [http://nmsportals.github.io/#31B205459B43] and then go to Erzhai-Neho (which is a nearby abandoned system) via the galactic map.
+*** To reach an abandoned system, you can go to this planet Kumaz 41/E9 [http://nmsportals.github.io/#31B205459B43], exit its atmosphere and then go to Erzhai-Neho (which is a nearby abandoned system) via the galactic map.
 
 *** To find the Storm Crystals, go to this planet [http://nmsportals.github.io/#108F00921FE6]. There are several collection points very close to the planet's portal.
