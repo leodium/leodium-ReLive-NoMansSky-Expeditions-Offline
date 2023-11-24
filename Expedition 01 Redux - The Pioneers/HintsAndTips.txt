@@ -9,11 +9,11 @@ Hints & Tips
 - Storm Crystals can be harvested from planets with extreme weather conditions with activated minerals, and only look for them during a storm. In "calm weather", they are not found/indicated by the multi-tool scanner.
 
 .
-.
+/!\ /!\ /!\ 
 .
 
-Help/Spoilers on the Abandoned System & Storm Crystals
-
+/!\ Help/Spoilers below on the Abandoned System & Storm Crystals /!\
+.
+.
 *** To reach an abandoned system, you can go to this planet Kumaz 41/E9 [http://nmsportals.github.io/#31B205459B43], exit its atmosphere and then go to Erzhai-Neho (which is a nearby abandoned system) via the galactic map.
-
 *** To find the 12 Storm Crystals, go to Ruvosan XIII [http://nmsportals.github.io/#108F00921FE6]. There are several collection points very close to the planet's portal.
