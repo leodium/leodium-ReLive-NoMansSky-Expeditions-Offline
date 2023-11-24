@@ -7,3 +7,13 @@ Hints & Tips
 - If you can, increase the size of your suit's inventory at each station (technology or inventory).
 - You can only 'find' an abandoned system by 'arriving' in it without going through a planetary portal. There's no point in finding coordinates on a site and teleporting there.  Abandoned systems will only appear as (abandoned) when you visit them, otherwise they will look like ordinary systems on the galactic map. With a conflict scanner and an economy scanner installed, they will always have a low economy rating and no conflict rating (not available).
 - Storm Crystals can be harvested from planets with extreme weather conditions with activated minerals, and only look for them during a storm. In "calm weather", they are not found/indicated by the multi-tool scanner.
+
+.
+.
+.
+
+Help/Spoilers on the Abandoned System & Storm Crystals
+
+*** To reach an abandoned system, you can go to this planet xxxx [http://nmsportals.github.io/#31B205459B43] and then go to Erzhai-Neho (which is a nearby abandoned system) via the galactic map.
+
+*** To find the Storm Crystals, go to this planet [http://nmsportals.github.io/#108F00921FE6]. There are several collection points very close to the planet's portal.
