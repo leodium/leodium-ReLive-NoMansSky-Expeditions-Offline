@@ -1,3 +1,7 @@
+Lore
+-----
+Utopia introduces the Utopia Foundation and challenges players to work together and rebuild a solar system.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
