@@ -1,3 +1,7 @@
+Lore
+-----
+Polestar offers travellers the chance to embark on an interstellar cruise. Repair the freighter’s unique technology, uncover its mysterious past, and journey across the galaxy at its helm.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
