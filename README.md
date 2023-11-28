@@ -43,5 +43,5 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 **Informations**
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
-- https://steamdb.info/app/275850/depots
+- https://steamdb.info/app/275850/history/
 - https://twitter.com/NoMansSky
