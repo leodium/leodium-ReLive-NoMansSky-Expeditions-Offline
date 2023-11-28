@@ -1,3 +1,7 @@
+Lore
+-----
+Cartographers is focused primarily on deep exploration of a single planet. This season places all expeditioners on the toxic world of Gisto Major, where their bespoke starship will require specialist attention to repair and launch into space.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
