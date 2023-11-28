@@ -1,3 +1,7 @@
+Lore
+-----
+Crossover event with Mass Effect, awarding the SSV Normandy SR1
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
