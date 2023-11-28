@@ -1,3 +1,7 @@
+Lore
+-----
+The Blighted aligns with the piratical theme of the Outlaws release. Travellers will follow the trail of a pirate faction known as The Blight and their mysterious treasure, gathering clues and decrypting milestones.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
