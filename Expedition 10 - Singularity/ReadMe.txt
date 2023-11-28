@@ -1,3 +1,7 @@
+Lore
+-----
+Singularity is focused on the history and origin of the Harmonic Camps in a mystery that touches upon artificial intelligence, the will to exist, and the very nature of what it means to be alive.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
