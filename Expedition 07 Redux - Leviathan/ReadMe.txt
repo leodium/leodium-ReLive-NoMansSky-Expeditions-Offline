@@ -1,3 +1,7 @@
+Lore
+-----
+Leviathan traps Travellers inside a time loop, and offers a taste of roguelike gameplay. Difficulty is tuned to survival mode settings, and every death means a reset of the loop.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
