@@ -36,10 +36,12 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 - <b>Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...</b>
 - Changed the number of Tech slots in the exosuit to correct the fact that, at the start, the technologies were in the normal inventory (so remember to move/replace them at the start of the Expedition if necessary).
 
-**Information**
-- https://nomanssky.fandom.com/wiki/List_of_Expeditions
-- https://app.nmsassistant.com/helloGames/seasonExpedition
-
 **Redux News**
 - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
 - https://www.nomanssky.com/2021/11/expeditions-revisited/
+
+**Informations**
+- https://nomanssky.fandom.com/wiki/List_of_Expeditions
+- https://app.nmsassistant.com/helloGames/seasonExpedition
+- https://steamdb.info/app/275850/depots
+- https://twitter.com/NoMansSky
