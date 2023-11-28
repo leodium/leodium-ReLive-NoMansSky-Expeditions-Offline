@@ -5,7 +5,9 @@ StartingSuitTechSlots value --> 8 (to have Tech slots available since they were 
 
 Bug ?
 ---
-None recorded to date. Let me know if you have one :p
+- Some of the rewards given during expeditions (technological improvements) don't appear in the inventory. They would appear if you used the refiner: so put the item in the refiner and put it back in your ship.
+
+No others recorded to date. Let me know if you have one :p
 
 How do you do it?
 ------------------
