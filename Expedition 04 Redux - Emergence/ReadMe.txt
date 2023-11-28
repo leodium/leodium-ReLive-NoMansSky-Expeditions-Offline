@@ -1,3 +1,7 @@
+Lore
+-----
+Emergence is focused primarily on deep exploration of a single planet and related sandworms. This season places all expeditioners on the planet Wasan, a barren world ravaged by dust storms and infested with Titan Worms.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
