@@ -1,3 +1,7 @@
+Lore
+-----
+Exobiology is focused primarily on discovering and interacting with the strange and varied alien creatures inhabiting the universe. This season places all expeditioners on a lonely star system devoid of wildlife, but with a towering bipedal creature companion to accompany them.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
