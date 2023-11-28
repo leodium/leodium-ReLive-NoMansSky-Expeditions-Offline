@@ -1,3 +1,7 @@
+Lore
+-----
+Pioneers is focused on challenging players to complete an impressive variety of tasks across the galaxy, ranging from finding ancient artifacts to travelling through black holes, rewarding them with a gold-covered ship from long ago.
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
