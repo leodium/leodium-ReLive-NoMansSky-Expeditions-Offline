@@ -1,4 +1,4 @@
-# ReLive-NoMansSky-Expeditions-Offline v1.2
+# ReLive-NoMansSky-Expeditions-Offline v1.2.1
 
 > :trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket:
 <i>with a simple copy/paste of a file into a directory ... No modification/influence on saves !!! No intervention on game files ...</i>
