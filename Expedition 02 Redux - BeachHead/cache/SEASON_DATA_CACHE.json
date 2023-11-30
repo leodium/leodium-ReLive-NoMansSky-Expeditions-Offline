@@ -1569,7 +1569,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_ENCRYPTED_NAME1_U",
             "Subtitle": "^UI_EXPED_ENCRYPTED_DESC1",
             "Description": "^UI_EXPED_ENCRYPTED_DESC_FORMAT",
@@ -1615,7 +1615,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_ENCRYPTED_NAME2_U",
             "Subtitle": "^UI_EXPED_ENCRYPTED_DESC2",
             "Description": "^UI_EXPED_ENCRYPTED_DESC_FORMAT",
@@ -1661,7 +1661,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_ENCRYPTED_NAME3_U",
             "Subtitle": "^UI_EXPED_ENCRYPTED_DESC3",
             "Description": "^UI_EXPED_ENCRYPTED_DESC_FORMAT",
@@ -1707,7 +1707,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_ENCRYPTED_NAME4_U",
             "Subtitle": "^UI_EXPED_ENCRYPTED_DESC4",
             "Description": "^UI_EXPED_ENCRYPTED_DESC_FORMAT",
