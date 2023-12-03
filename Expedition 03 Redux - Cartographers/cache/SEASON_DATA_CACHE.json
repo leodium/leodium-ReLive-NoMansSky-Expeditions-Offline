@@ -32,7 +32,7 @@
     "^ROCKETSUB"
   ],
   "StartingSuitSlots": 44,
-  "StartingSuitTechSlots": 8,
+  "StartingSuitTechSlots": 16,
   "StartingSuitCargoSlots": 16,
   "WeaponSeed": [
     false,
