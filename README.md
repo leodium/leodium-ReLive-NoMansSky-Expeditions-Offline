@@ -45,5 +45,6 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 - https://app.nmsassistant.com/helloGames/seasonExpedition
 - https://estnn.com/?s=no+man+sky
 - https://estnn.com/the-ultimate-11-expeditions-tier-list-no-mans-sky-guide
+- https://steamcommunity.com/app/275850/discussions/0/4031347296572619765/
 - https://steamdb.info/app/275850/history/
 - https://twitter.com/NoMansSky
