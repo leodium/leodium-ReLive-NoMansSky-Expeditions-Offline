@@ -1473,7 +1473,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_SAVE_FREIGHT_NAME_U",
             "Subtitle": "^UI_EXPED_SAVE_FREIGHT_S_CRYPT",
             "Description": "^UI_EXPED_SAVE_FREIGHT_D_CRYPT",
@@ -1727,7 +1727,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_PIRATE_MAP1_NAME_U",
             "Subtitle": "^UI_EXPED_PIRATE_MAP1_SUB_CRYPT",
             "Description": "^UI_EXPED_PIRATE_MAP1_DESC_CRYPT",
@@ -2079,7 +2079,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_PIRATE_MAP2_NAME_U",
             "Subtitle": "^UI_EXPED_PIRATE_MAP2_SUB_CRYPT",
             "Description": "^UI_EXPED_PIRATE_MAP2_DESC_CRYPT",
@@ -2480,7 +2480,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_PIRATE_PORTAL_NAME_U",
             "Subtitle": "^UI_EXPED_PIRATE_PORTAL_S_CRYPT",
             "Description": "^UI_EXPED_PIRATE_PORTAL_D_CRYPT",
@@ -2734,7 +2734,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_LEAVE_GALAXY_CRYPT",
             "Subtitle": "^UI_EXPED_LEAVE_GALAXY_S_CRYPT",
             "Description": "^UI_EXPED_LEAVE_GALAXY_D_CRYPT",
@@ -2783,7 +2783,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_EXPED_BUILD_BASE_CRYPT",
             "Subtitle": "^UI_EXPED_BUILD_BASE_SUB_CRYPT",
             "Description": "^UI_EXPED_LEAVE_GALAXY_D_CRYPT",
