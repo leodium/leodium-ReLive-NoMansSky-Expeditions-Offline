@@ -5,6 +5,7 @@ Cartographers is focused primarily on deep exploration of a single planet. This 
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+StartingSuitTechSlots value --> 16 (to have Tech slots available since they were mixed up with the inventory at the time)
 
 Bug ?
 ---
