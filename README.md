@@ -21,21 +21,19 @@
 - Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but - they are only partially kept up to date -.
 - The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
 
- 
+ ```
 # 📓 How do you do this?
-- First, set your game software to "Offline". 
-<sup>(Steam and GoG have an Offline mode) (worst case scenario: cut the wifi or network)</sup>
+- First, set your game software to "Offline". (Steam and GoG have an Offline mode) (worst case scenario: cut the wifi or network)
 - Then download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - Replace the file in your [cache] directory with the one you've just uploaded
 
-  <i>-> Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache
-
+  -> Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache
   -> Steam Mac : ~/Library/Application Support/HelloGames/NMS/st_{64BitSteamID}/cache
-
-  -> MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache</i>
+  -> MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache
 
 - Restart "No Man's Sky" in offline mode 
-<sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
+(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)
+```
 
 📎 <b>Details</b>
 - Modification of the access period so that you can access it whenever you want, with no time limit.
