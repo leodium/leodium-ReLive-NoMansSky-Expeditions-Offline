@@ -21,7 +21,8 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 <i>We are Brave and Fearless Hero Travellers ... No need for CheatMode</i>
 
 # How do you do this?
-- First, set your game software to "Offline".
+- First, set your game software to "Offline". 
+<sup>(Steam and GoG have an Offline mode) (worst case scenario: cut the wifi or network)</sup>
 - Then download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - Replace the file in your [cache] directory with the one you've just uploaded
 
@@ -31,7 +32,8 @@ Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] dir
 
   -> MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache</i>
 
-- Restart "No Man's Sky" in offline mode
+- Restart "No Man's Sky" in offline mode 
+<sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
 
 <b>Details</b>
 - Modification of the access period so that you can access it whenever you want, with no time limit.
