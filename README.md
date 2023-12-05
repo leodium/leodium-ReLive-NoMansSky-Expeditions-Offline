@@ -9,14 +9,16 @@ No intervention on game files ...</i>
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
 <i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
 
-**The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
-
 ![alt text](https://raw.githubusercontent.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/main/NMS_ExpeditionsOffline_mini.jpeg?raw=true)
 
 > [!NOTE]
 >You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released. Introduced with the Expeditions update, this mode features a series of time-limited events that begin at a fixed point in the universe. This allows the community to "embark on a shared journey". Each expedition is built around a series of milestones. These objectives can be achieved in any order, allowing players to obtain specific rewards, meet other players and experiment with different ways of playing.
 
 <i>Here is the directory of the **REDUX versions of Expeditions**. I've opted for the Redux versions because they're more recent and less likely to have bugs as a result of updates made by HelloGames since their release. 
+
+>>
+>>>> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
+>>
 
 Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but --- they are only partially kept up to date ---.
 The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
