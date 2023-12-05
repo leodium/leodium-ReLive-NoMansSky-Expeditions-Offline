@@ -1,7 +1,9 @@
 # ReLive-NoMansSky-Expeditions-Offline v1.2.5
 
 > :trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket:
-<i>with a simple copy/paste of a file into a directory ... No modification/influence on saves !!! No intervention on game files ...</i>
+<i>with a simple copy/paste of a file into a directory ... </i>
+<i>No modification/influence on saves !!! 
+No intervention on game files ...</i>
 
 
 **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
