@@ -16,12 +16,12 @@ No intervention on game files ...</i>
 
 <i>Here is the directory of the **REDUX versions of Expeditions**. I've opted for the Redux versions because they're more recent and less likely to have bugs as a result of updates made by HelloGames since their release. 
 
->>
->>>> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
->>
 
-Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but --- they are only partially kept up to date ---.
-The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
+> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
+
+
+- Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but - they are only partially kept up to date -.
+- The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
  
 # How do you do this?
 - First, set your game software to "Offline". 
