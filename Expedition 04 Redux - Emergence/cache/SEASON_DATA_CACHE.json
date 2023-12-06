@@ -27,7 +27,7 @@
   "MainMissionMessage": "^UI_SEASON_4_MAIN_MSG",
   "AdditionalTradeProducts": [],
   "StartingSuitSlots": 30,
-  "StartingSuitTechSlots": 8,
+  "StartingSuitTechSlots": 16,
   "StartingSuitCargoSlots": 8,
   "WeaponSeed": [
     false,
