@@ -18,7 +18,6 @@
  
 
 # ⚙️ How do you do this?
-
 - [x] Step 01 : Set your game software to "Offline". 
 <sup>(Steam and GoG have an Offline mode) (worst case scenario: cut the wifi or network after downloading the file from step 2)</sup>
 - [x] Step 02 : Download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
@@ -33,7 +32,7 @@
 - [x] Step 04 : Restart "No Man's Sky" in offline mode 
 <sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
 
-**📎 Details** 
+# 📎 Details
 <i>
 - Modification of the access period so that you can access it whenever you want, with no time limit.
 - Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...
@@ -42,14 +41,14 @@
 - Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but - they are only partially kept up to date -.
 - The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
 
-**📰 Redux News**
+# 📰 Redux News
 - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
 - https://www.nomanssky.com/2021/11/expeditions-revisited/
 - https://steamdb.info/app/275850/history/
 - https://twitter.com/NoMansSky
 
 
-**🌐 Informations**
+# 🌐 Informations
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
 - https://estnn.com/?s=no+man+sky
