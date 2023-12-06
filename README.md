@@ -33,13 +33,12 @@
 <sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
 
 # 📎 Details
-<i>
 - Modification of the access period so that you can access it whenever you want, with no time limit.
 - Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ...
 - Changed the number of Tech slots in the exosuit to correct the fact that, at the start, the technologies were in the normal inventory (so remember to move/replace them at the start of the Expedition if necessary).
 - Here is the directory of the **REDUX versions of Expeditions**. I've opted for the Redux versions because they're more recent and less likely to have bugs as a result of updates made by HelloGames since their release. 
 - Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but - they are only partially kept up to date -.
-- The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.</i>
+- The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.
 
 # 📰 Redux News
 - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
