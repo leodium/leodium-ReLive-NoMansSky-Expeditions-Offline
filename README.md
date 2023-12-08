@@ -51,8 +51,8 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 - The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.
 
 # 📰 Redux News
-- https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
-- https://www.nomanssky.com/2021/11/expeditions-revisited/
+> - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
+> - https://www.nomanssky.com/2021/11/expeditions-revisited/
 
 
 # 🌐 Informations
