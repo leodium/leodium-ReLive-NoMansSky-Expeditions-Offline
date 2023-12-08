@@ -53,6 +53,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 # 📰 Redux News
 > - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
 > - https://www.nomanssky.com/2021/11/expeditions-revisited/
+> - https://www.nomanssky.com/2023/12/holiday-2023-expeditions/
 
 
 # 🌐 Informations
