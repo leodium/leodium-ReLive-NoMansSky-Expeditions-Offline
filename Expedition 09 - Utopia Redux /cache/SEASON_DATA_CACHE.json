@@ -1,16 +1,16 @@
 {
-  "SeasonId": 17,
-  "Label": "Utopia Expedition",
-  "Name": "Expedition 9",
-  "SeasonType": 0,
-  "StartTimeUTC": 1677067200,
-  "EndTimeUTC": 2893423600,
-  "Hash": 2224972359,
+  "SeasonId": 20,
+  "StartTimeUTC": 1702044000,
+  "EndTimeUTC": 1702641600,
+  "Hash": 3269408385,
   "Title": "GAMEMODE_SEASONAL",
   "Subtitle": "GAMEMODE_SEASONAL_SUBTITLE",
   "Description": "UI_EXPED9_MAIN_DESC",
   "FinalStageTitle": "^UI_EXPED_STAGE_TITLE_6",
   "MilestoneWithStageLocId": "^UI_MILESTONE_WITH_STAGE",
+  "SeasonStartMusicOverride": {
+    "AkEvent": "INVALID_EVENT"
+  },
   "GameMode": {
     "PresetGameMode": "Normal"
   },
@@ -87,23 +87,24 @@
       "BreakTechOnDamageProbability": "None"
     }
   },
-  "SeasonalUAOverride": "0031c90003ce7641",
-  "UAOverrideValue": "0x31C90003CE7641",
+  "SeasonalUAOverride": "00421500fb19d6c5",
+  "UAOverrideValue": "0x421500FB19D6C5",
   "FinalReward": "^RS_S9_COMPLETE",
   "FinalRewardSwitchAlt": "^",
-  "FinalCantRewardMessage": "^INTRCT_NOROOM_L",
+  "FinalCantRewardMessage": "^SHIP_EXIT",
   "FinalRewardDescription": "",
   "MainIcon": {
     "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.9.dds"
   },
-  "SeasonNumber": 17,
-  "RemixNumber": 0,
+  "SeasonNumber": 20,
+  "RemixNumber": 17,
   "DisplayNumber": 9,
   "SeasonName": "^UI_SEASON_9_NAME",
   "SeasonNameUpper": "^UI_SEASON_9_NAME_U",
   "MainMissionTitle": "^UI_SEASON_9_MAIN_TITLE",
   "MainMissionMessage": "^UI_SEASON_9_MAIN_MSG",
   "DoCommunityMissionTextSubstitutions": false,
+  "CommunityProgressTitle": "^TRADE_SPECIAL_CM_TITLE",
   "DefaultToPvPOff": false,
   "MustCraftInBases": true,
   "AdditionalTradeProducts": [],
@@ -1326,8 +1327,11 @@
   "SandwormGlobalOverrideTimer": 60,
   "SandwormGlobalOverrideSpawnChance": 1,
   "StartNextToShip": false,
+  "ShipIsAtDifferentBuildingToPlayer": false,
   "DistanceFromShipAtStartOfGame": 2500,
+  "BuildingRadiusShipOffsetMultiplier": 0.8500000238418579,
   "ShipStartsDamaged": true,
+  "BlockStormsAtStart": false,
   "AllowMissionDetailMessages": true,
   "UseStartPlanetObjectListOverrides": false,
   "StartPlanetRareSubstanceOverride": "^",
@@ -1379,6 +1383,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1428,6 +1433,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1477,6 +1483,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1526,6 +1533,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1575,6 +1583,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1600,7 +1609,7 @@
           "DescriptionDone": "^UI_EXPED_EXO_DISTANCE_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 2000,
+          "Amount": 1000,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -1624,6 +1633,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1673,6 +1683,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": true,
           "IsStageControl": false,
           "Encryption": {
@@ -1722,6 +1733,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": true,
           "Encryption": {
@@ -1740,9 +1752,6 @@
           }
         }
       ],
-      "Icon": {
-        "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.1.dds"
-      },
       "Title": "^UI_EXPED_STAGE_TITLE_1",
       "Description": "^UI_EXPED_STAGE_DESC_1"
     },
@@ -1780,6 +1789,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": true,
           "IsStageControl": false,
           "Encryption": {
@@ -1829,6 +1839,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1878,6 +1889,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1927,6 +1939,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -1945,11 +1958,11 @@
           }
         },
         {
-          "Mission": "^EGG_PODS",
-          "Title": "^UI_EXPED_EGG_PODS_NAME",
-          "TitleUpper": "^UI_EXPED_EGG_PODS_NAME_U",
-          "Description": "^UI_EXPED_EGG_PODS_DESC",
-          "DescriptionDone": "^UI_EXPED_EGG_PODS_DESC_D",
+          "Mission": "^HAZ_PLANTS",
+          "Title": "^UI_EXPED_HAZ_PLANTS_NAME",
+          "TitleUpper": "^UI_EXPED_HAZ_PLANTS_NAME_U",
+          "Description": "^UI_EXPED_HAZ_PLANTS_DESC",
+          "DescriptionDone": "^UI_EXPED_HAZ_PLANTS_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
           "Amount": 5,
@@ -1957,25 +1970,26 @@
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.whisperingeggs.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.KILL.PLANTS.DDS"
           },
           "IconGrey": {
             "Filename": ""
           },
           "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.fiend.on.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.TREESCAN.ON.DDS"
           },
           "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.fiend.on.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.TREESCAN.ON.DDS"
           },
           "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.fiend.off.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.TREESCAN.OFF.DDS"
           },
           "Reward": "^RS_S9_S2M4",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2025,6 +2039,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2074,6 +2089,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2123,6 +2139,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": true,
           "Encryption": {
@@ -2141,9 +2158,6 @@
           }
         }
       ],
-      "Icon": {
-        "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.1.dds"
-      },
       "Title": "^UI_EXPED_STAGE_TITLE_2",
       "Description": "^UI_EXPED_STAGE_DESC_2"
     },
@@ -2181,6 +2195,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": true,
           "IsStageControl": false,
           "Encryption": {
@@ -2230,6 +2245,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2279,6 +2295,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2328,6 +2345,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2346,86 +2364,38 @@
           }
         },
         {
-          "Mission": "^CRE_WATER",
-          "Title": "^UI_EXPED_S9_CRE_WATER_NAME",
-          "TitleUpper": "^UI_EXPED_S9_CRE_WATER_NAME_U",
-          "Description": "^UI_EXPED_CRE_WATER_DESC",
-          "DescriptionDone": "^UI_EXPED_CRE_WATER_DESC_D",
+          "Mission": "^GOT_BURIED_PROP",
+          "Title": "^UI_EXPED_GOT_BURIED_PROP_NAME",
+          "TitleUpper": "^UI_EXPED_GOT_BURIED_PROP_NAME_U",
+          "Description": "^UI_EXPED_GOT_BURIED_PROP_DESC",
+          "DescriptionDone": "^UI_EXPED_GOT_BURIED_PROP_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 3,
+          "Amount": 1,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.underthesea.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.UNDERGROUNDTREASURE.DDS"
           },
           "IconGrey": {
             "Filename": ""
           },
           "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DIGGING.ON.DDS"
           },
           "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DIGGING.ON.DDS"
           },
           "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DIGGING.OFF.DDS"
           },
-          "Reward": "^RS_S9_S3M4",
+          "Reward": "^RS_S9_S3M5_NEW",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^GOT_PEARLS",
-          "Title": "^UI_EXPED_S9_PEARL_NAME",
-          "TitleUpper": "^UI_EXPED_S9_PEARL_NAME_U",
-          "Description": "^UI_EXPED_PEARL_DESC",
-          "DescriptionDone": "^UI_EXPED_PEARL_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 3,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.pearl.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.collect.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.collect.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.collect.off.dds"
-          },
-          "Reward": "^RS_S9_S3M5",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2475,6 +2445,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2500,7 +2471,7 @@
           "DescriptionDone": "^UI_EXPED_S9_PLANTS_PARTY_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 8,
+          "Amount": 3,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -2524,6 +2495,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2573,6 +2545,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": true,
           "Encryption": {
@@ -2591,9 +2564,6 @@
           }
         }
       ],
-      "Icon": {
-        "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.1.dds"
-      },
       "Title": "^UI_EXPED_STAGE_TITLE_3",
       "Description": "^UI_EXPED_STAGE_DESC_3"
     },
@@ -2631,6 +2601,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": true,
           "IsStageControl": false,
           "Encryption": {
@@ -2680,6 +2651,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2729,6 +2701,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2778,6 +2751,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2796,7 +2770,57 @@
           }
         },
         {
-          "Mission": "^COOK_WORM",
+          "Mission": "^W_CRE_WATER",
+          "Title": "^UI_EXPED_W_CRE_WATER_NAME",
+          "TitleUpper": "^UI_EXPED_W_CRE_WATER_NAME_U",
+          "Description": "^UI_EXPED_W_CRE_WATER_DESC",
+          "DescriptionDone": "^UI_EXPED_W_CRE_WATER_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 50,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.underthesea.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S9_S3M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^COOK_WORM_ALT",
           "Title": "^UI_EXPED_COOK_WORM_NAME",
           "TitleUpper": "^UI_EXPED_COOK_WORM_NAME_U",
           "Description": "^UI_EXPED_COOK_WORM_DESC",
@@ -2827,6 +2851,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2852,7 +2877,7 @@
           "DescriptionDone": "^UI_EXPED_S9_MYSTERY_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 10,
+          "Amount": 5,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -2876,6 +2901,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2901,7 +2927,7 @@
           "DescriptionDone": "^UI_EXPED_MINIWORMS_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 8,
+          "Amount": 3,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -2925,6 +2951,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -2974,6 +3001,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": true,
           "Encryption": {
@@ -2992,9 +3020,6 @@
           }
         }
       ],
-      "Icon": {
-        "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.1.dds"
-      },
       "Title": "^UI_EXPED_STAGE_TITLE_4",
       "Description": "^UI_EXPED_STAGE_DESC_4"
     },
@@ -3032,6 +3057,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": true,
           "IsStageControl": false,
           "Encryption": {
@@ -3081,6 +3107,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3130,6 +3157,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3179,6 +3207,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3198,18 +3227,18 @@
         },
         {
           "Mission": "^DISC_CRE_PP",
-          "Title": "^UI_EXPED_S9_CRE_PARTY_NAME",
-          "TitleUpper": "^UI_EXPED_S9_CRE_PARTY_NAME_U",
+          "Title": "^UI_EXPED_S9_CRE_REMIX_NAME",
+          "TitleUpper": "^UI_EXPED_S9_CRE_REMIX_NAME_U",
           "Description": "^UI_EXPED_S9_CRE_PARTY_DESC",
           "DescriptionDone": "^UI_EXPED_S9_CRE_PARTY_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 6,
+          "Amount": 3,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.creatureplanet.3.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATUREPLANET.2.DDS"
           },
           "IconGrey": {
             "Filename": ""
@@ -3228,6 +3257,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3277,6 +3307,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3326,6 +3357,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3375,6 +3407,7 @@
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
+          "GreyIfCantStart": false,
           "IsRendezvous": false,
           "IsStageControl": true,
           "Encryption": {
@@ -3393,9 +3426,6 @@
           }
         }
       ],
-      "Icon": {
-        "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.1.dds"
-      },
       "Title": "^UI_EXPED_STAGE_TITLE_5",
       "Description": "^UI_EXPED_STAGE_DESC_5"
     }
@@ -3409,6 +3439,9 @@
           "InteractionType": "LibraryMainTerminal"
         },
         "RequireInteractionRace": {
+          "AlienRace": "None"
+        },
+        "OverrideInteractionRace": {
           "AlienRace": "None"
         },
         "ForceBroken": false,
@@ -3430,6 +3463,7 @@
         "EventPriority": "Regular",
         "CanEndFromOutsideMission": true,
         "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
@@ -3440,6 +3474,7 @@
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
         "SolarSystemLocation": "FromList",
         "SolarSystemAttributes": {
           "UseStarType": false,
@@ -3472,6 +3507,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3484,7 +3520,7 @@
             "Biome": "Lush"
           },
           "UseBiomeSubType": {
-            "BiomeSubType": "Variant_A"
+            "BiomeSubType": "HighQuality"
           },
           "NeedsEmptySystem": false,
           "NeedsAbandonedSystem": false,
@@ -3525,6 +3561,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3556,7 +3593,7 @@
           "AllowRetrigger": false
         },
         "UAsList": [
-          "0031c90003ce7641"
+          "00421500fb19d6c5"
         ],
         "TechShopType": {
           "TechnologyCategory": "All"
@@ -3602,6 +3639,9 @@
         "RequireInteractionRace": {
           "AlienRace": "None"
         },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
         "ForceBroken": false,
         "ForceFixed": false,
         "ForceOverridesAll": true,
@@ -3621,6 +3661,7 @@
         "EventPriority": "Regular",
         "CanEndFromOutsideMission": true,
         "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
@@ -3631,6 +3672,7 @@
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
         "SolarSystemLocation": "FromList",
         "SolarSystemAttributes": {
           "UseStarType": false,
@@ -3663,6 +3705,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3716,6 +3759,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3747,7 +3791,7 @@
           "AllowRetrigger": false
         },
         "UAsList": [
-          "0021c90003ce7641"
+          "00521500fb19d6c5"
         ],
         "TechShopType": {
           "TechnologyCategory": "All"
@@ -3793,6 +3837,9 @@
         "RequireInteractionRace": {
           "AlienRace": "None"
         },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
         "ForceBroken": false,
         "ForceFixed": false,
         "ForceOverridesAll": true,
@@ -3812,6 +3859,7 @@
         "EventPriority": "Regular",
         "CanEndFromOutsideMission": true,
         "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
@@ -3822,6 +3870,7 @@
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
         "SolarSystemLocation": "FromList",
         "SolarSystemAttributes": {
           "UseStarType": false,
@@ -3854,6 +3903,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3866,7 +3916,7 @@
             "Biome": "Lush"
           },
           "UseBiomeSubType": {
-            "BiomeSubType": "HugeToxic"
+            "BiomeSubType": "Standard"
           },
           "NeedsEmptySystem": false,
           "NeedsAbandonedSystem": false,
@@ -3907,6 +3957,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -3938,7 +3989,7 @@
           "AllowRetrigger": false
         },
         "UAsList": [
-          "0061c90003ce7641"
+          "00221500fb19d6c5"
         ],
         "TechShopType": {
           "TechnologyCategory": "All"
@@ -3984,6 +4035,9 @@
         "RequireInteractionRace": {
           "AlienRace": "None"
         },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
         "ForceBroken": false,
         "ForceFixed": false,
         "ForceOverridesAll": true,
@@ -4003,6 +4057,7 @@
         "EventPriority": "Regular",
         "CanEndFromOutsideMission": true,
         "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
@@ -4013,6 +4068,7 @@
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
         "SolarSystemLocation": "FromList",
         "SolarSystemAttributes": {
           "UseStarType": false,
@@ -4045,6 +4101,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -4052,9 +4109,9 @@
           "AnyBiomeNotWeirdOrDead": false,
           "AnyRGBBiome": false,
           "AnyInfestedBiome": true,
-          "NeedsBiome": false,
+          "NeedsBiome": true,
           "NeedsBiomeType": {
-            "Biome": "Lush"
+            "Biome": "Toxic"
           },
           "UseBiomeSubType": {
             "BiomeSubType": "None"
@@ -4098,6 +4155,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -4129,7 +4187,7 @@
           "AllowRetrigger": false
         },
         "UAsList": [
-          "0051c90003ce7641"
+          "00321500fb19d6c5"
         ],
         "TechShopType": {
           "TechnologyCategory": "All"
@@ -4175,6 +4233,9 @@
         "RequireInteractionRace": {
           "AlienRace": "None"
         },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
         "ForceBroken": false,
         "ForceFixed": false,
         "ForceOverridesAll": true,
@@ -4194,6 +4255,7 @@
         "EventPriority": "Regular",
         "CanEndFromOutsideMission": true,
         "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
@@ -4204,6 +4266,7 @@
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
         "SolarSystemLocation": "FromList",
         "SolarSystemAttributes": {
           "UseStarType": false,
@@ -4236,6 +4299,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -4245,7 +4309,7 @@
           "AnyInfestedBiome": false,
           "NeedsBiome": true,
           "NeedsBiomeType": {
-            "Biome": "Swamp"
+            "Biome": "Frozen"
           },
           "UseBiomeSubType": {
             "BiomeSubType": "None"
@@ -4289,6 +4353,7 @@
           "NeedsWaterPlanet": false,
           "NeedsPrimePlanet": false,
           "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
           "NeedsExtremeWeatherPlanet": false,
@@ -4320,7 +4385,7 @@
           "AllowRetrigger": false
         },
         "UAsList": [
-          "0011c90003ce7641"
+          "00121500fb19d6c5"
         ],
         "TechShopType": {
           "TechnologyCategory": "All"
@@ -4499,7 +4564,8 @@
       "WikiEnabled": true,
       "DamagedDescription": "",
       "ParentTechId": "^",
-      "IsTemplate": false
+      "IsTemplate": false,
+      "ExclusivePrimaryStat": false
     },
     {
       "ID": "^ENERGY",
@@ -4608,7 +4674,8 @@
       "WikiEnabled": true,
       "DamagedDescription": "",
       "ParentTechId": "^",
-      "IsTemplate": false
+      "IsTemplate": false,
+      "ExclusivePrimaryStat": false
     }
   ],
   "ProductTable": [
@@ -4681,8 +4748,8 @@
       },
       "RecipeCost": 1,
       "SpecificChargeOnly": false,
-      "NormalisedValueOnWorld": 0.000012756409887515474,
-      "NormalisedValueOffWorld": 0.000012756409887515474,
+      "NormalisedValueOnWorld": 1.2756409887515474e-5,
+      "NormalisedValueOffWorld": 1.2756409887515474e-5,
       "TradeCategory": {
         "TradeCategory": "None"
       },
@@ -4769,8 +4836,8 @@
       },
       "RecipeCost": 1,
       "SpecificChargeOnly": false,
-      "NormalisedValueOnWorld": 0.000012756409887515474,
-      "NormalisedValueOffWorld": 0.000012756409887515474,
+      "NormalisedValueOnWorld": 1.2756409887515474e-5,
+      "NormalisedValueOffWorld": 1.2756409887515474e-5,
       "TradeCategory": {
         "TradeCategory": "None"
       },
