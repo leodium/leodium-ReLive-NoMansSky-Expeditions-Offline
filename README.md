@@ -11,12 +11,18 @@
 
 >> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
 
+# 🚀 Why am I sharing my method?
+My "ReLive-NoMansSky-All Expeditions" project is aimed at Hero Travellers who want to test themselves against the requirements of the previous No Man's Sky expeditions. I've just got into the game and I was sorry I couldn't do them, learn the mechanics of the game and get the related rewards other than by "cheating" by adding them via a mod or save editor.
+
+So I decided to modify the Hello Games json files and adapt them for my own use ... As I saw that it was safe and that other players were asking me how I'd done it ... I decided to share my method ...
+
+**Become Heroes riding your GoldenVector followed by the SSV Normandy and decked out with badges from previous Expeditions!**
+
 ![alt text](https://raw.githubusercontent.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/main/NMS_ExpeditionsOffline_mini.jpeg?raw=true)
 
 > [!NOTE]
 ><i>You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released. Introduced with the Expeditions update, this mode features a series of time-limited events that begin at a fixed point in the universe. This allows the community to "embark on a shared journey". Each expedition is built around a series of milestones. These objectives can be achieved in any order, allowing players to obtain specific rewards, meet other players and experiment with different ways of playing.</i>
  
-
 # ⚙️ How do you do this?
 - [x] Step 01 : Set your game software to "Offline". 
 <sup>(Read the note below to find out why)(Steam and GoG have an Offline mode) (worst case scenario : cut the wifi or network after downloading the file from step 2)</sup>
@@ -43,13 +49,6 @@
 - Here is the directory of the **REDUX versions of Expeditions**. I've opted for the Redux versions because they're more recent and less likely to have bugs as a result of updates made by HelloGames since their release. 
 - Although the first versions are stored in the [PastVersionExp 01-08 NoRedux] directory but - they are only partially kept up to date -.
 - The directory [SeasonDataCacheAllOriginalFiles] contains the original HelloGames json files without any intervention on my part.
-
-# 🚀 Why am I sharing my method? Modifier
-My "ReLive-NoMansSky-All Expeditions" project is aimed at Hero Travellers who want to test themselves against the requirements of the previous No Man's Sky expeditions. I've just got into the game and I was sorry I couldn't do them, learn the mechanics of the game and get the related rewards other than by "cheating" by adding them via a mod or save editor.
-
-So I decided to modify the Hello Games json files and adapt them for my own use ... As I saw that it was safe and that other players were asking me how I'd done it ... I decided to share my method ...
-
-**Become Heroes riding your GoldenVector followed by the SSV Normandy and decked out with badges from previous Expeditions!**
 
 # 📰 Redux News
 - https://www.nomanssky.com/2022/11/holiday-2022-expeditions/
