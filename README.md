@@ -59,10 +59,10 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - https://www.nomanssky.com/
 > - https://www.youtube.com/@HelloGamesTube
 > - https://twitter.com/NoMansSky
-- https://steamdb.info/app/275850/history/
+<i>- https://steamdb.info/app/275850/history/
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
 - https://estnn.com/?s=no+man+sky
 - https://estnn.com/the-ultimate-11-expeditions-tier-list-no-mans-sky-guide
 - https://steamcommunity.com/app/275850/discussions/0/4031347296572619765/
-- https://www.nomansskyresources.com/updates-and-experimental
+- https://www.nomansskyresources.com/updates-and-experimental</i>
