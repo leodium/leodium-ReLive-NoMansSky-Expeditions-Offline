@@ -21,7 +21,7 @@ b) Then, download the file "SEASON_DATA_CACHE.json" from the cache directory of 
 
 c) Replace the file in your [cache] directory with the one you've just downloaded
 -> Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache
--> Steam Mac : ~/Library/Application Support/HelloGames/NMS/st_{64BitSteamID}/cache
+-> Steam Mac : ~/Library/Application Support/HelloGames/NMS/cache
 -> MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache
 
 d) Restart "No Man's Sky" in offline mode and start a new game "Expedition".
