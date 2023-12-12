@@ -30,7 +30,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 - [x] Step 03 : Replace the file in your [cache] directory with the one you've just uploaded
 
 > - 👉🏻 Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache
-> - 👉🏻 Steam Mac : ~/Library/Application Support/HelloGames/NMS/st_{64BitSteamID}/cache
+> - 👉🏻 Steam Mac : ~/Library/Application Support/HelloGames/NMS/cache
 > - 👉🏻 MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache
  
 - [x] Step 04 : Restart "No Man's Sky" in offline mode 
