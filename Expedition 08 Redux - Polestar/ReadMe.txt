@@ -19,9 +19,9 @@ a) First of all, set your game software to "Offline".
 b) Then, download the file "SEASON_DATA_CACHE.json" from the cache directory of the expedition you wish to redo.
 
 c) Replace the file in your [cache] directory with the one you've just downloaded
--> Steam PC : %APPDATA%\HelloGames\NMS\st_{steamId64}\cache
+-> Steam PC : %APPDATA%\HelloGames\NMS\cache
 -> Steam Mac : ~/Library/Application Support/HelloGames/NMS/cache
--> MS Store/GOG : %APPDATA%\HelloGames\NMS\NDefaultUser\cache
+-> MS Store/GOG : %APPDATA%\HelloGames\NMS\cache
 
 d) Restart "No Man's Sky" in offline mode and start a new game "Expedition".
 
