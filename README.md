@@ -63,6 +63,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - <i>https://steamdb.info/app/275850/history/
 > - https://steamdb.info/app/275850/patchnotes/?all
 > - https://steamcommunity.com/sharedfiles/filedetails/?id=3107584216
+> - https://www.epochconverter.com/
 
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
