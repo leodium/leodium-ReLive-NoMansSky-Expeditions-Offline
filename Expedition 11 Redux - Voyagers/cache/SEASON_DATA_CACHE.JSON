@@ -1,15 +1,15 @@
 {
-  "SeasonId": 22,
-  "StartTimeUTC": 1703253600,
+  "SeasonId": 23,
+  "StartTimeUTC": 1703858400,
   "EndTimeUTC": 2893423600,
-  "Hash": 972458635,
+  "Hash": 2609965724,
   "Title": "GAMEMODE_SEASONAL",
   "Subtitle": "GAMEMODE_SEASONAL_SUBTITLE",
-  "Description": "UI_EXPED3_MAIN_DESC",
+  "Description": "UI_EXPED11_MAIN_DESC",
   "FinalStageTitle": "^UI_EXPED_STAGE_TITLE_6",
   "MilestoneWithStageLocId": "^UI_MILESTONE_WITH_STAGE",
   "SeasonStartMusicOverride": {
-    "AkEvent": "INVALID_EVENT"
+    "AkEvent": "MUS_STATUS_UPDATE"
   },
   "GameMode": {
     "PresetGameMode": "Normal"
@@ -30,19 +30,19 @@
       "DeathConsequencesDifficulty": "ItemGrave"
     },
     "DamageReceived": {
-      "DamageReceivedDifficulty": "Normal"
+      "DamageReceivedDifficulty": "Low"
     },
     "DamageGiven": {
       "DamageGivenDifficulty": "Normal"
     },
     "ActiveSurvivalBars": {
-      "ActiveSurvivalBarsDifficulty": "All"
+      "ActiveSurvivalBarsDifficulty": "HealthAndHazard"
     },
     "HazardDrain": {
-      "HazardDrainDifficulty": "Normal"
+      "HazardDrainDifficulty": "Slow"
     },
     "EnergyDrain": {
-      "EnergyDrainDifficulty": "Normal"
+      "EnergyDrainDifficulty": "Slow"
     },
     "SubstanceCollection": {
       "SubstanceCollectionDifficulty": "Normal"
@@ -51,13 +51,13 @@
       "InventoryStackLimitsDifficulty": "Normal"
     },
     "ChargingRequirements": {
-      "ChargingRequirementsDifficulty": "Normal"
+      "ChargingRequirementsDifficulty": "Low"
     },
     "FuelUse": {
-      "FuelUseDifficulty": "Normal"
+      "FuelUseDifficulty": "Cheap"
     },
     "LaunchFuelCost": {
-      "LaunchFuelCostDifficulty": "Normal"
+      "LaunchFuelCostDifficulty": "Low"
     },
     "CurrencyCost": {
       "CurrencyCostDifficulty": "Normal"
@@ -66,55 +66,50 @@
       "ItemShopAvailabilityDifficulty": "Normal"
     },
     "ScannerRecharge": {
-      "ScannerRechargeDifficulty": "Normal"
+      "ScannerRechargeDifficulty": "Fast"
     },
     "ReputationGain": {
       "ReputationGainDifficulty": "Normal"
     },
     "CreatureHostility": {
-      "CreatureHostilityDifficulty": "FullEcosystem"
+      "CreatureHostilityDifficulty": "AttackIfProvoked"
     },
     "SpaceCombatTimers": {
-      "CombatTimerDifficultyOption": "Normal"
+      "CombatTimerDifficultyOption": "Off"
     },
     "GroundCombatTimers": {
-      "CombatTimerDifficultyOption": "Normal"
+      "CombatTimerDifficultyOption": "Off"
     },
     "SprintingCost": {
-      "SprintingCostDifficulty": "Full"
+      "SprintingCostDifficulty": "Low"
     },
     "BreakTechOnDamage": {
-      "BreakTechOnDamageProbability": "Low"
+      "BreakTechOnDamageProbability": "None"
     }
   },
-  "SeasonalUAOverride": "0060330003624cae",
-  "UAOverrideValue": "0x60330003624CAE",
-  "FinalReward": "^RS_S1_COMPLETE",
+  "SeasonalUAOverride": "00611f00fd5d13df",
+  "UAOverrideValue": "0x611F00FD5D13DF",
+  "FinalReward": "^RS_S11_COMPLETE",
   "FinalRewardSwitchAlt": "^",
-  "FinalCantRewardMessage": "^SHIP_EXIT",
+  "FinalCantRewardMessage": "^INTRCT_NOROOM_L",
   "FinalRewardDescription": "",
   "MainIcon": {
-    "Filename": "textures/ui/frontend/icons/expedition/patch.expedition.3.dds"
+    "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.EXPEDITION.11.DDS"
   },
-  "SeasonNumber": 22,
-  "RemixNumber": 3,
-  "DisplayNumber": 3,
-  "SeasonName": "^UI_SEASON_3_NAME",
-  "SeasonNameUpper": "^UI_SEASON_3_NAME_U",
-  "MainMissionTitle": "^UI_SEASON_3_MAIN_TITLE",
-  "MainMissionMessage": "^UI_SEASON_3_MAIN_MSG",
-  "DoCommunityMissionTextSubstitutions": false,
-  "CommunityProgressTitle": "^TRADE_SPECIAL_CM_TITLE",
+  "SeasonNumber": 23,
+  "RemixNumber": 19,
+  "DisplayNumber": 11,
+  "SeasonName": "^UI_SEASON_11_NAME",
+  "SeasonNameUpper": "^UI_SEASON_11_NAME_U",
+  "MainMissionTitle": "^UI_SEASON_11_MAIN_TITLE",
+  "MainMissionMessage": "^UI_SEASON_11_MAIN_MSG",
+  "DoCommunityMissionTextSubstitutions": true,
+  "CommunityProgressTitle": "^",
   "DefaultToPvPOff": false,
   "MustCraftInBases": false,
-  "AdditionalTradeProducts": [
-    "^ASTEROID2",
-    "^TECH_COMP",
-    "^GRAVBALL",
-    "^ROCKETSUB"
-  ],
+  "AdditionalTradeProducts": [],
   "NeverTradeProducts": [],
-  "StartingSuitSlots": 42,
+  "StartingSuitSlots": 32,
   "StartingSuitTechSlots": 19,
   "StartingSuitCargoSlots": 0,
   "WeaponSeed": [
@@ -126,47 +121,38 @@
     "0x0"
   ],
   "ShipType": {
-    "ShipClass": "Royal"
+    "ShipClass": "Scientific"
   },
-  "StartWithFreighter": false,
-  "FreighterBaseOverrideFilename": "",
+  "StartWithFreighter": true,
+  "FreighterBaseOverrideFilename": "metadata/simulation/freighterbases/fishparadise.mxml",
   "FreighterRace": {
     "AlienRace": "None"
   },
-  "StartAboardFreighter": false,
-  "ForceStartSystemTernary": true,
+  "StartAboardFreighter": true,
+  "ForceStartSystemTernary": false,
   "ForceStartSystemAbandoned": false,
   "ValidSpawnBuildings": [
     {
       "BuildingClass": "GameStartSpawn"
     },
     {
-      "BuildingClass": "DamagedMachine"
+      "BuildingClass": "TreasureRuins"
     },
     {
-      "BuildingClass": "Terminal"
-    },
-    {
-      "BuildingClass": "Beacon"
-    },
-    {
-      "BuildingClass": "GraveInCave"
+      "BuildingClass": "Ruin"
     },
     {
       "BuildingClass": "Debris"
     },
     {
-      "BuildingClass": "TreasureRuins"
+      "BuildingClass": "Beacon"
     },
     {
-      "BuildingClass": "NPCDebris"
-    },
-    {
-      "BuildingClass": "NPCDistressSignal"
+      "BuildingClass": "RadioTower"
     }
   ],
   "WeaponInventoryLayout": {
-    "Slots": 18,
+    "Slots": 13,
     "Seed": [
       true,
       "0x1"
@@ -174,7 +160,7 @@
     "Level": 1
   },
   "ShipInventoryLayout": {
-    "Slots": 27,
+    "Slots": 29,
     "Seed": [
       true,
       "0x1"
@@ -182,7 +168,7 @@
     "Level": 1
   },
   "ShipTechInventoryLayout": {
-    "Slots": 13,
+    "Slots": 21,
     "Seed": [
       true,
       "0x1"
@@ -245,7 +231,7 @@
     "Slots": [],
     "ValidSlotIndices": [],
     "Class": {
-      "InventoryClass": "C"
+      "InventoryClass": "B"
     },
     "StackSizeGroup": {
       "InventoryStackSizeGroup": "Default"
@@ -1329,12 +1315,12 @@
   "SandwormGlobalOverrideSpawnChance": 1,
   "StartNextToShip": false,
   "ShipIsAtDifferentBuildingToPlayer": false,
-  "DistanceFromShipAtStartOfGame": 100,
+  "DistanceFromShipAtStartOfGame": 1,
   "BuildingRadiusShipOffsetMultiplier": 0.8500000238418579,
-  "ShipStartsDamaged": true,
+  "ShipStartsDamaged": false,
   "BlockStormsAtStart": false,
   "AllowMissionDetailMessages": true,
-  "UseStartPlanetObjectListOverrides": true,
+  "UseStartPlanetObjectListOverrides": false,
   "StartPlanetRareSubstanceOverride": "^",
   "TrashInventoryOnGalaxyTravel": true,
   "FreighterBattleEarlyWarpsOverride": -1,
@@ -1351,11 +1337,11 @@
     {
       "Milestones": [
         {
-          "Mission": "^BROKEN_SHIP1",
-          "Title": "^UI_EXPED_BROKEN_SHIP1_NAME",
-          "TitleUpper": "^UI_EXPED_BROKEN_SHIP1_NAME_U",
-          "Description": "^UI_EXPED_BROKEN_SHIP1_DESC",
-          "DescriptionDone": "^UI_EXPED_BROKEN_SHIP1_DESC_D",
+          "Mission": "^VISIT_PLANET",
+          "Title": "^UI_EXPED_VISIT_PLANET_NAME",
+          "TitleUpper": "^UI_EXPED_VISIT_PLANET_NAME_U",
+          "Description": "^UI_EXPED_VISIT_PLANET_DESC",
+          "DescriptionDone": "^UI_EXPED_VISIT_PLANET_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
           "Amount": 1,
@@ -1363,613 +1349,7 @@
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.blueprintfind.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S1M1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^TERRAIN_EDITOR",
-          "Title": "^UI_EXPED_TERRAIN_EDITOR_NAME",
-          "TitleUpper": "^UI_EXPED_TERRAIN_EDITOR_NAME_U",
-          "Description": "^UI_EXPED_TERRAIN_EDITOR_DESC",
-          "DescriptionDone": "^UI_EXPED_TERRAIN_EDITOR_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.terrain.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.repair.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.repair.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.repair.off.dds"
-          },
-          "Reward": "^RS_S3_S1M2",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STORM_SHELTER",
-          "Title": "^UI_EXPED_STORM_SHELTER_NAME",
-          "TitleUpper": "^UI_EXPED_STORM_SHELTER_NAME_U",
-          "Description": "^UI_EXPED_STORM_SHELTER_DESC",
-          "DescriptionDone": "^UI_EXPED_STORM_SHELTER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.stormshelter.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.off.dds"
-          },
-          "Reward": "^RS_S3_S1M3",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BUILD_BASE",
-          "Title": "^UI_EXPED_BUILD_BASE_NAME",
-          "TitleUpper": "^UI_EXPED_BUILD_BASE_NAME_U",
-          "Description": "^UI_EXPED_BUILD_BASE_DESC",
-          "DescriptionDone": "^UI_EXPED_BUILD_BASE_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.basesize2.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.off.dds"
-          },
-          "Reward": "^RS_S3_S1M4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^SIGNAL_BOOSTER",
-          "Title": "^UI_EXPED_SIGNAL_BOOSTER_NAME",
-          "TitleUpper": "^UI_EXPED_SIGNAL_BOOSTER_NAME_U",
-          "Description": "^UI_EXPED_SIGNAL_BOOSTER_DESC",
-          "DescriptionDone": "^UI_EXPED_SIGNAL_BOOSTER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.signalboost.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.off.dds"
-          },
-          "Reward": "^RS_S3_S1M5",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^VISIT_ANY",
-          "Title": "^UI_EXPED_VISIT_ANY_NAME",
-          "TitleUpper": "^UI_EXPED_VISIT_ANY_NAME_U",
-          "Description": "^UI_EXPED_VISIT_ANY_DESC",
-          "DescriptionDone": "^UI_EXPED_VISIT_ANY_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.visitbuilding.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.library.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.library.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.library.off.dds"
-          },
-          "Reward": "^RS_S3_S1M6",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^WALKER",
-          "Title": "^UI_EXPED_WALKER_NAME",
-          "TitleUpper": "^UI_EXPED_WALKER_NAME_U",
-          "Description": "^UI_EXPED_WALKER_DESC",
-          "DescriptionDone": "^UI_EXPED_WALKER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 3000,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.walker.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.off.dds"
-          },
-          "Reward": "^RS_S3_S1M7",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STAGE1",
-          "Title": "^UI_EXPED_STAGE1_NAME",
-          "TitleUpper": "^UI_EXPED_STAGE1_NAME_U",
-          "Description": "^UI_EXPED_STAGE1_DESC",
-          "DescriptionDone": "^UI_EXPED_STAGE1_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.1.dds"
-          },
-          "IconGrey": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.1.grey.dds"
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
-          },
-          "Reward": "^RS_S3_PHASE1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": true,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        }
-      ],
-      "Title": "^UI_EXPED_STAGE_TITLE_1",
-      "Description": "^UI_EXPED_STAGE_DESC_1"
-    },
-    {
-      "Milestones": [
-        {
-          "Mission": "^BROKEN_SHIP2",
-          "Title": "^UI_EXPED_BROKEN_SHIP2_NAME",
-          "TitleUpper": "^UI_EXPED_BROKEN_SHIP2_NAME_U",
-          "Description": "^UI_EXPED_BROKEN_SHIP2_DESC",
-          "DescriptionDone": "^UI_EXPED_BROKEN_SHIP2_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.blueprintbuild.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S2M1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^POWER_BASE",
-          "Title": "^UI_EXPED_POWER_BASE_NAME",
-          "TitleUpper": "^UI_EXPED_POWER_BASE_NAME_U",
-          "Description": "^UI_EXPED_POWER_BASE_DESC",
-          "DescriptionDone": "^UI_EXPED_POWER_BASE_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 150,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.power.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.off.dds"
-          },
-          "Reward": "^RS_S3_S2M2",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BUILD_TELEPORT",
-          "Title": "^UI_EXPED_TELEPORTER_NAME",
-          "TitleUpper": "^UI_EXPED_TELEPORTER_NAME_U",
-          "Description": "^UI_EXPED_TELEPORTER_DESC",
-          "DescriptionDone": "^UI_EXPED_TELEPORTER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.teleporter.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.off.dds"
-          },
-          "Reward": "^RS_S3_S2M3",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^MOLEMAN",
-          "Title": "^UI_EXPED_MOLEMAN_NAME",
-          "TitleUpper": "^UI_EXPED_MOLEMAN_NAME_U",
-          "Description": "^UI_EXPED_MOLEMAN_DESC",
-          "DescriptionDone": "^UI_EXPED_MOLEMAN_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 750,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.cavewalker.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.off.dds"
-          },
-          "Reward": "^RS_S3_S2M7",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STORM_WALKER",
-          "Title": "^UI_EXPED_STORM_WALKER_NAME",
-          "TitleUpper": "^UI_EXPED_STORM_WALKER_NAME_U",
-          "Description": "^UI_EXPED_STORM_WALKER_DESC",
-          "DescriptionDone": "^UI_EXPED_STORM_WALKER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 800,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.survivestorm.dds"
+            "Filename": "textures/ui/frontend/icons/expedition/patch.firstplanet2.dds"
           },
           "IconGrey": {
             "Filename": ""
@@ -1983,1175 +1363,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
           },
-          "Reward": "^RS_S3_S2M5",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^GOT_PETS",
-          "Title": "^UI_EXPED_GOT_PETS_NAME",
-          "TitleUpper": "^UI_EXPED_GOT_PETS_NAME_U",
-          "Description": "^UI_EXPED_GOT_PETS_DESC",
-          "DescriptionDone": "^UI_EXPED_GOT_PETS_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.getpet.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.off.dds"
-          },
-          "Reward": "^RS_S3_S2M6",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BUILD_EXOCRAFT",
-          "Title": "^UI_EXPED_BUILD_EXOCRAFT_NAME",
-          "TitleUpper": "^UI_EXPED_BUILD_EXOCRAFT_NAME_U",
-          "Description": "^UI_EXPED_BUILD_EXOCRAFT_DESC",
-          "DescriptionDone": "^UI_EXPED_BUILD_EXOCRAFT_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.mech.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.off.dds"
-          },
-          "Reward": "^RS_S3_S2M4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STAGE2",
-          "Title": "^UI_EXPED_STAGE2_NAME",
-          "TitleUpper": "^UI_EXPED_STAGE2_NAME_U",
-          "Description": "^UI_EXPED_STAGE2_DESC",
-          "DescriptionDone": "^UI_EXPED_STAGE2_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.2.dds"
-          },
-          "IconGrey": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.2.grey.dds"
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
-          },
-          "Reward": "^RS_S4_PHASE4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": true,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        }
-      ],
-      "Title": "^UI_EXPED_STAGE_TITLE_2",
-      "Description": "^UI_EXPED_STAGE_DESC_2"
-    },
-    {
-      "Milestones": [
-        {
-          "Mission": "^BROKEN_SHIP3",
-          "Title": "^UI_EXPED_BROKEN_SHIP3_NAME",
-          "TitleUpper": "^UI_EXPED_BROKEN_SHIP3_NAME_U",
-          "Description": "^UI_EXPED_BROKEN_SHIP3_DESC",
-          "DescriptionDone": "^UI_EXPED_BROKEN_SHIP3_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.blueprintrepair.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S3M1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BASIC_SCAN_MIN",
-          "Title": "^UI_EXPED_BASIC_SCAN_MIN_NAME",
-          "TitleUpper": "^UI_EXPED_BASIC_SCAN_MIN_NAME_U",
-          "Description": "^UI_EXPED_BASIC_SCAN_MIN_DESC",
-          "DescriptionDone": "^UI_EXPED_BASIC_SCAN_MIN_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 6,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.discovermineral.2.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.discover.off.dds"
-          },
-          "Reward": "^RS_S3_S3M2",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BASIC_SCAN_PLA",
-          "Title": "^UI_EXPED_BASIC_SCAN_PLA_NAME",
-          "TitleUpper": "^UI_EXPED_BASIC_SCAN_PLA_NAME_U",
-          "Description": "^UI_EXPED_BASIC_SCAN_PLA_DESC",
-          "DescriptionDone": "^UI_EXPED_BASIC_SCAN_PLA_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 8,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.discoverplant.2.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.off.dds"
-          },
-          "Reward": "^RS_S3_S3M3",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^BASIC_SCAN_CRE",
-          "Title": "^UI_EXPED_ALL_CREATURES_NAME",
-          "TitleUpper": "^UI_EXPED_ALL_CREATURES_NAME_U",
-          "Description": "^UI_EXPED_BASIC_SCAN_CRE_DESC",
-          "DescriptionDone": "^UI_EXPED_BASIC_SCAN_CRE_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 6,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.discoveranimal.2.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
-          },
-          "Reward": "^RS_S3_S3M4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^DISC_WAYPOINT",
-          "Title": "^UI_EXPED_DISC_WAYPOINT_NAME",
-          "TitleUpper": "^UI_EXPED_DISC_WAYPOINT_NAME_U",
-          "Description": "^UI_EXPED_DISC_WAYPOINT_DESC",
-          "DescriptionDone": "^UI_EXPED_DISC_WAYPOINT_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 4,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.discoverwaypoint.1.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
-          },
-          "Reward": "^RS_S3_S3M5",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^HAZ_PLANTS",
-          "Title": "^UI_EXPED_HAZ_PLANTS_NAME",
-          "TitleUpper": "^UI_EXPED_HAZ_PLANTS_NAME_U",
-          "Description": "^UI_EXPED_HAZ_PLANTS_DESC",
-          "DescriptionDone": "^UI_EXPED_HAZ_PLANTS_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 10,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.kill.plants.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.off.dds"
-          },
-          "Reward": "^RS_S3_S3M6",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^MINER",
-          "Title": "^UI_EXPED_MINER_NAME",
-          "TitleUpper": "^UI_EXPED_MINER_NAME_U",
-          "Description": "^UI_EXPED_MINER_DESC",
-          "DescriptionDone": "^UI_EXPED_MINER_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 200,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.extractmineral.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.multitool.off.dds"
-          },
-          "Reward": "^RS_S3_S4M2",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STAGE3",
-          "Title": "^UI_EXPED_STAGE3_NAME",
-          "TitleUpper": "^UI_EXPED_STAGE3_NAME_U",
-          "Description": "^UI_EXPED_STAGE3_DESC",
-          "DescriptionDone": "^UI_EXPED_STAGE3_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.3.dds"
-          },
-          "IconGrey": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.3.grey.dds"
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
-          },
-          "Reward": "^RS_S5_PHASE4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": true,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        }
-      ],
-      "Title": "^UI_EXPED_STAGE_TITLE_3",
-      "Description": "^UI_EXPED_STAGE_DESC_3"
-    },
-    {
-      "Milestones": [
-        {
-          "Mission": "^BROKEN_SHIP4",
-          "Title": "^UI_EXPED_BROKEN_SHIP4_NAME",
-          "TitleUpper": "^UI_EXPED_BROKEN_SHIP4_NAME_U",
-          "Description": "^UI_EXPED_BROKEN_SHIP4_DESC",
-          "DescriptionDone": "^UI_EXPED_BROKEN_SHIP4_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.blueprintlife.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S4M1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^EXO_DISTANCE",
-          "Title": "^UI_EXPED_EXO_DISTANCE_NAME",
-          "TitleUpper": "^UI_EXPED_EXO_DISTANCE_NAME_U",
-          "Description": "^UI_EXPED_EXO_DISTANCE_DESC",
-          "DescriptionDone": "^UI_EXPED_EXO_DISTANCE_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 6500,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.exocraft.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.exocraft.off.dds"
-          },
-          "Reward": "^RS_S3_S4M3",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^GOT_BURIED_PROP",
-          "Title": "^UI_EXPED_GOT_BURIED_PROP_NAME",
-          "TitleUpper": "^UI_EXPED_GOT_BURIED_PROP_NAME_U",
-          "Description": "^UI_EXPED_GOT_BURIED_PROP_DESC",
-          "DescriptionDone": "^UI_EXPED_GOT_BURIED_PROP_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 5,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.undergroundtreasure.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.off.dds"
-          },
-          "Reward": "^RS_S3_S3M7",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^MOUNTAIN_TOP",
-          "Title": "^UI_EXPED_MOUNTAIN_TOP_NAME",
-          "TitleUpper": "^UI_EXPED_MOUNTAIN_TOP_NAME_U",
-          "Description": "^UI_EXPED_MOUNTAIN_TOP_DESC",
-          "DescriptionDone": "^UI_EXPED_MOUNTAIN_TOP_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 950,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.mountain.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
-          },
-          "Reward": "^RS_S3_S4M6",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^FALLING",
-          "Title": "^UI_EXPED_FALLING_NAME",
-          "TitleUpper": "^UI_EXPED_FALLING_NAME_U",
-          "Description": "^UI_EXPED_FALLING_DESC",
-          "DescriptionDone": "^UI_EXPED_FALLING_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 16,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.airborne.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.distress.off.dds"
-          },
-          "Reward": "^RS_S3_S4M7",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^GOT_FOSSILS",
-          "Title": "^UI_EXPED_GOT_FOSSILS_NAME",
-          "TitleUpper": "^UI_EXPED_GOT_FOSSILS_NAME_U",
-          "Description": "^UI_EXPED_GOT_FOSSILS_DESC",
-          "DescriptionDone": "^UI_EXPED_GOT_FOSSILS_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 6,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.getdigging.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.off.dds"
-          },
-          "Reward": "^RS_S3_S4M8",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^STAGE4",
-          "Title": "^UI_EXPED_STAGE4_NAME",
-          "TitleUpper": "^UI_EXPED_STAGE4_NAME_U",
-          "Description": "^UI_EXPED_STAGE4_DESC",
-          "DescriptionDone": "^UI_EXPED_STAGE4_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.4.dds"
-          },
-          "IconGrey": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.4.grey.dds"
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
-          },
-          "Reward": "^RS_S1_PHASE4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": true,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        }
-      ],
-      "Title": "^UI_EXPED_STAGE_TITLE_4",
-      "Description": "^UI_EXPED_STAGE_DESC_4"
-    },
-    {
-      "Milestones": [
-        {
-          "Mission": "^LEAVE_PLANET",
-          "Title": "^UI_EXPED_LEAVE_PLANET_NAME",
-          "TitleUpper": "^UI_EXPED_LEAVE_PLANET_NAME_U",
-          "Description": "^UI_EXPED_LEAVE_PLANET_DESC",
-          "DescriptionDone": "^UI_EXPED_LEAVE_PLANET_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.firstplanet4.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S5M1",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^ACROBAT",
-          "Title": "^UI_EXPED_ACROBAT_NAME",
-          "TitleUpper": "^UI_EXPED_ACROBAT_NAME_U",
-          "Description": "^UI_EXPED_ACROBAT_DESC",
-          "DescriptionDone": "^UI_EXPED_ACROBAT_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 15,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.ship1.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.ship.off.dds"
-          },
-          "Reward": "^RS_S3_S5M2",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^SPACE_STATION",
-          "Title": "^UI_EXPED_SPACE_STATION_NAME",
-          "TitleUpper": "^UI_EXPED_SPACE_STATION_NAME_U",
-          "Description": "^UI_EXPED_SPACE_STATION_DESC",
-          "DescriptionDone": "^UI_EXPED_SPACE_STATION_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.lostinspace.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.enterstation.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.enterstation.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.enterstation.off.dds"
-          },
-          "Reward": "^RS_S3_S5M3",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": false,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^PARTY_PLANET1",
-          "Title": "^UI_EXPED_PARTY_PLANET1_NAME",
-          "TitleUpper": "^UI_EXPED_PARTY_PLANET1_NAME_U",
-          "Description": "^UI_EXPED_PARTY_PLANET1_DESC",
-          "DescriptionDone": "^UI_EXPED_PARTY_PLANET1_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.party.1.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
-          },
-          "Reward": "^RS_S3_S5M4",
-          "RewardSwitchAlt": "^",
-          "RewardDescription": "",
-          "CantClaimRewardDescription": "",
-          "IsOptional": false,
-          "GreyIfCantStart": false,
-          "IsRendezvous": true,
-          "IsStageControl": false,
-          "Encryption": {
-            "IsEncrypted": false,
-            "TitleUpper": "^",
-            "Subtitle": "^",
-            "Description": "^",
-            "Patch": {
-              "Filename": ""
-            },
-            "HoverPopupIcon": {
-              "Filename": ""
-            },
-            "DecryptMissionId": "^",
-            "DecryptMissionSeed": 0
-          }
-        },
-        {
-          "Mission": "^FIX_WARP",
-          "Title": "^UI_EXPED_FIX_WARP_NAME",
-          "TitleUpper": "^UI_EXPED_FIX_WARP_NAME_U",
-          "Description": "^UI_EXPED_FIX_WARP_DESC",
-          "DescriptionDone": "^UI_EXPED_FIX_WARP_DESC_D",
-          "CantRewardMessage": "^INTRCT_NOROOM_L",
-          "IdToUseInMissionData": "^",
-          "Amount": 1,
-          "StageIndex": 0,
-          "MilestoneIndex": 0,
-          "RendezvousIndex": -1,
-          "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.blueprintwarp.dds"
-          },
-          "IconGrey": {
-            "Filename": ""
-          },
-          "MissionIcon": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.on.dds"
-          },
-          "MissionIconSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.on.dds"
-          },
-          "MissionIconNotSelected": {
-            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.off.dds"
-          },
-          "Reward": "^RS_S3_S5M5",
+          "Reward": "^RS_S11_S1M1",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
@@ -3187,7 +1399,7 @@
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.warpfix.dds"
+            "Filename": "textures/ui/frontend/icons/expedition/patch.shipflying.dds"
           },
           "IconGrey": {
             "Filename": ""
@@ -3201,7 +1413,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.off.dds"
           },
-          "Reward": "^RS_S3_S5M6",
+          "Reward": "^RS_S11_S1M2",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
@@ -3225,11 +1437,11 @@
           }
         },
         {
-          "Mission": "^PARTY_PLANET2",
-          "Title": "^UI_EXPED_PARTY_PLANET2_NAME",
-          "TitleUpper": "^UI_EXPED_PARTY_PLANET2_NAME_U",
-          "Description": "^UI_EXPED_PARTY_PLANET2_DESC",
-          "DescriptionDone": "^UI_EXPED_PARTY_PLANET2_DESC_D",
+          "Mission": "^BUILD_BASE",
+          "Title": "^UI_EXPED_BUILD_BASE_NAME",
+          "TitleUpper": "^UI_EXPED_BUILD_BASE_NAME_U",
+          "Description": "^UI_EXPED_BUILD_BASE_DESC",
+          "DescriptionDone": "^UI_EXPED_BUILD_BASE_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
           "Amount": 1,
@@ -3237,7 +1449,257 @@
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.party.2.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.BASESIZE1.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.base.off.dds"
+          },
+          "Reward": "^RS_S11_S1M3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^BASIC_SCAN_CRE",
+          "Title": "^UI_EXPED_BASIC_SCAN_CRE_NAME",
+          "TitleUpper": "^UI_EXPED_BASIC_SCAN_CRE_NAME_U",
+          "Description": "^UI_EXPED_BASIC_SCAN_CRE_DESC",
+          "DescriptionDone": "^UI_EXPED_BASIC_SCAN_CRE_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 6,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATUREPAWS.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.ON.DDS"
+          },
+          "MissionIconSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.ON.DDS"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.OFF.DDS"
+          },
+          "Reward": "^RS_S11_S1M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^WALKER",
+          "Title": "^UI_EXPED_WALKER_NAME",
+          "TitleUpper": "^UI_EXPED_WALKER_NAME_U",
+          "Description": "^UI_EXPED_WALKER_DESC",
+          "DescriptionDone": "^UI_EXPED_WALKER_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 2500,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.walker.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
+          },
+          "Reward": "^RS_S11_S1M5",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^GOT_PETS",
+          "Title": "^UI_EXPED_GOT_PETS_NAME",
+          "TitleUpper": "^UI_EXPED_GOT_PETS_NAME_U",
+          "Description": "^UI_EXPED_GOT_PETS_DESC",
+          "DescriptionDone": "^UI_EXPED_GOT_PETS_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 2,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATURETRUST.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.pets.off.dds"
+          },
+          "Reward": "^RS_S11_S1M6",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^WORDS_TRA",
+          "Title": "^UI_EXPED_WORDS_TRA_NAME",
+          "TitleUpper": "^UI_EXPED_WORDS_TRA_NAME_U",
+          "Description": "^UI_EXPED_WORDS_TRA_DESC",
+          "DescriptionDone": "^UI_EXPED_WORDS_TRA_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 3,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.learn.gek.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.off.dds"
+          },
+          "Reward": "^RS_S11_S1M7",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^PARTY_PLANET1",
+          "Title": "^UI_EXPED_PARTY_PLANET1_NAME",
+          "TitleUpper": "^UI_EXPED_PARTY_PLANET1_NAME_U",
+          "Description": "^UI_EXPED_PARTY_PLANET1_DESC",
+          "DescriptionDone": "^UI_EXPED_PARTY_PLANET1_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 100,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH2.PARTY.1.DDS"
           },
           "IconGrey": {
             "Filename": ""
@@ -3251,13 +1713,1837 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
           },
-          "Reward": "^RS_S3_S5M7",
+          "Reward": "^RS_S11_PARTY",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
           "IsOptional": false,
           "GreyIfCantStart": false,
           "IsRendezvous": true,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAGE1",
+          "Title": "^UI_EXPED_STAGE1_NAME",
+          "TitleUpper": "^UI_EXPED_STAGE1_NAME_U",
+          "Description": "^UI_EXPED_STAGE1_DESC",
+          "DescriptionDone": "^UI_EXPED_STAGE1_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.1.DDS"
+          },
+          "IconGrey": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.1.GREY.DDS"
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PHASE1",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": true,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        }
+      ],
+      "Title": "^UI_EXPED_STAGE_TITLE_1",
+      "Description": "^UI_EXPED_STAGE_DESC_1"
+    },
+    {
+      "Milestones": [
+        {
+          "Mission": "^PARTY_PLANET2",
+          "Title": "^UI_EXPED_PARTY_PLANET2_NAME",
+          "TitleUpper": "^UI_EXPED_PARTY_PLANET2_NAME_U",
+          "Description": "^UI_EXPED_PARTY_PLANET2_DESC",
+          "DescriptionDone": "^UI_EXPED_PARTY_PLANET2_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 600,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH2.PARTY.2.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PARTY",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": true,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^MOUNTAIN_TOP",
+          "Title": "^UI_EXPED_MOUNTAIN_TOP_NAME",
+          "TitleUpper": "^UI_EXPED_MOUNTAIN_TOP_NAME_U",
+          "Description": "^UI_EXPED_MOUNTAIN_TOP_DESC",
+          "DescriptionDone": "^UI_EXPED_MOUNTAIN_TOP_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 600,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.MOUNTAIN2.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
+          },
+          "Reward": "^RS_S11_S2M1",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STORM_CRYSTALS",
+          "Title": "^UI_EXPED11_STORM_CRYSTAL_NAME",
+          "TitleUpper": "^UI_EXPED11_STORM_CRYSTAL_NAME_U",
+          "Description": "^UI_EXPED_STORM_CRYSTALS_DESC",
+          "DescriptionDone": "^UI_EXPED_STORM_CRYSTALS_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 3,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.STORMCRYSTALS.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.off.dds"
+          },
+          "Reward": "^RS_S11_S2M2",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_CRE_TOX",
+          "Title": "^UI_EXPED_W_CRE_TOX_NAME",
+          "TitleUpper": "^UI_EXPED_W_CRE_TOX_NAME_U",
+          "Description": "^UI_EXPED_W_CRE_TOX_DESC",
+          "DescriptionDone": "^UI_EXPED_W_CRE_TOX_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 3.1500000953674316,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATUREPLANET.3.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S11_S2M3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_CRE_BAD",
+          "Title": "^UI_EXPED_W_CRE_BAD_NAME",
+          "TitleUpper": "^UI_EXPED_W_CRE_BAD_NAME_U",
+          "Description": "^UI_EXPED_W_CRE_BAD_DESC",
+          "DescriptionDone": "^UI_EXPED_W_CRE_BAD_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 20,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/SPOOKWORM/PATCH.SPOOKY.LIBRARY.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.ON.DDS"
+          },
+          "MissionIconSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.ON.DDS"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.CRESCAN.OFF.DDS"
+          },
+          "Reward": "^RS_S11_S2M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_PLANET_COLD",
+          "Title": "^UI_EXPED_W_PLANET_COLD_NAME",
+          "TitleUpper": "^UI_EXPED_W_PLANET_COLD_NAME_U",
+          "Description": "^UI_EXPED_W_PLANET_COLD_DESC",
+          "DescriptionDone": "^UI_EXPED_W_PLANET_COLD_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": -70,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.BIOME.3.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
+          },
+          "Reward": "^RS_S11_S2M5",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^BUILD_PART",
+          "Title": "^UI_EXPED_HOLODISCO_NAME",
+          "TitleUpper": "^UI_EXPED_HOLODISCO_NAME_U",
+          "Description": "^UI_EXPED_HOLODISCO_DESC",
+          "DescriptionDone": "^UI_EXPED_HOLODISCO_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^HOLO_DISCO_0",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CONTROL1.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DOSTAGES.ON.DDS"
+          },
+          "MissionIconSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DOSTAGES.ON.DDS"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.DOSTAGES.OFF.DDS"
+          },
+          "Reward": "^RS_S11_S2M6",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^PROC_PRODS",
+          "Title": "^UI_EXPED_TREASURE_NAME",
+          "TitleUpper": "^UI_EXPED_TREASURE_NAME_U",
+          "Description": "^UI_EXPED_TREASURE_DESC",
+          "DescriptionDone": "^UI_EXPED_TREASURE_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.TREASURECHEST.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.off.dds"
+          },
+          "Reward": "^RS_S11_S2M7",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAGE2",
+          "Title": "^UI_EXPED_STAGE2_NAME",
+          "TitleUpper": "^UI_EXPED_STAGE2_NAME_U",
+          "Description": "^UI_EXPED_STAGE2_DESC",
+          "DescriptionDone": "^UI_EXPED_STAGE2_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.2.DDS"
+          },
+          "IconGrey": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.2.GREY.DDS"
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PHASE2",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": true,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        }
+      ],
+      "Title": "^UI_EXPED_STAGE_TITLE_2",
+      "Description": "^UI_EXPED_STAGE_DESC_2"
+    },
+    {
+      "Milestones": [
+        {
+          "Mission": "^PARTY_PLANET3",
+          "Title": "^UI_EXPED_PARTY_PLANET3_NAME",
+          "TitleUpper": "^UI_EXPED_PARTY_PLANET3_NAME_U",
+          "Description": "^UI_EXPED_PARTY_PLANET3_DESC",
+          "DescriptionDone": "^UI_EXPED_PARTY_PLANET3_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 600,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH2.PARTY.3.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PARTY",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": true,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_PLANET_BAD",
+          "Title": "^UI_EXPED_W_PLANET_BAD_NAME",
+          "TitleUpper": "^UI_EXPED_W_PLANET_BAD_NAME_U",
+          "Description": "^UI_EXPED_W_PLANET_BAD_DESC",
+          "DescriptionDone": "^UI_EXPED_W_PLANET_BAD_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 69,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/SPOOKWORM/PATCH.SPOOKY.WORMLURE.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
+          },
+          "Reward": "^RS_S11_S3M1",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^FARMER",
+          "Title": "^UI_EXPED11_FARMER_NAME",
+          "TitleUpper": "^UI_EXPED11_FARMER_NAME_U",
+          "Description": "^UI_EXPED11_FARMER_DESC",
+          "DescriptionDone": "^UI_EXPED_FARMER_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 6,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.getfarm.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.farmer.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.farmer.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.farmer.off.dds"
+          },
+          "Reward": "^RS_S11_S3M2",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_CRE_HOT",
+          "Title": "^UI_EXPED_W_CRE_HOT_NAME",
+          "TitleUpper": "^UI_EXPED_W_CRE_HOT_NAME_U",
+          "Description": "^UI_EXPED_W_CRE_HOT_DESC",
+          "DescriptionDone": "^UI_EXPED_W_CRE_HOT_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 52,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.creatureplanet.1.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S11_S3M3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^GOT_VORTEX_CUBE",
+          "Title": "^UI_EXPED_GOT_VORTEX_NAME",
+          "TitleUpper": "^UI_EXPED_GOT_VORTEX_NAME_U",
+          "Description": "^UI_EXPED_GOT_VORTEX_DESC",
+          "DescriptionDone": "^UI_EXPED_GOT_VORTEX_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 3,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.GETCUBES.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.collect.off.dds"
+          },
+          "Reward": "^RS_S11_S3M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAR_RED",
+          "Title": "^UI_EXPED_STAR_RED_NAME",
+          "TitleUpper": "^UI_EXPED_STAR_RED_NAME_U",
+          "Description": "^UI_EXPED_STAR_RED_DESC",
+          "DescriptionDone": "^UI_EXPED_STAR_RED_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.redsystem.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.off.dds"
+          },
+          "Reward": "^RS_S11_S3M5",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^MOLEMAN",
+          "Title": "^UI_EXPED_MOLEMAN_NAME",
+          "TitleUpper": "^UI_EXPED_MOLEMAN_NAME_U",
+          "Description": "^UI_EXPED_MOLEMAN_DESC",
+          "DescriptionDone": "^UI_EXPED_MOLEMAN_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 900,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.cavewalker.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.digging.off.dds"
+          },
+          "Reward": "^RS_S11_S3M6",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^WORDS_WAR",
+          "Title": "^UI_EXPED_WORDS_WAR_NAME",
+          "TitleUpper": "^UI_EXPED_WORDS_WAR_NAME_U",
+          "Description": "^UI_EXPED_WORDS_WAR_DESC",
+          "DescriptionDone": "^UI_EXPED_WORDS_WAR_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 3,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.LEARN.VYKEEN.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.off.dds"
+          },
+          "Reward": "^RS_S11_S3M7",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAGE3",
+          "Title": "^UI_EXPED_STAGE3_NAME",
+          "TitleUpper": "^UI_EXPED_STAGE3_NAME_U",
+          "Description": "^UI_EXPED_STAGE3_DESC",
+          "DescriptionDone": "^UI_EXPED_STAGE3_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.3.DDS"
+          },
+          "IconGrey": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.3.GREY.DDS"
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PHASE3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": true,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        }
+      ],
+      "Title": "^UI_EXPED_STAGE_TITLE_3",
+      "Description": "^UI_EXPED_STAGE_DESC_3"
+    },
+    {
+      "Milestones": [
+        {
+          "Mission": "^PARTY_PLANET4",
+          "Title": "^UI_EXPED_PARTY_PLANET4_NAME",
+          "TitleUpper": "^UI_EXPED_PARTY_PLANET4_NAME_U",
+          "Description": "^UI_EXPED_PARTY_PLANET4_DESC",
+          "DescriptionDone": "^UI_EXPED_PARTY_PLANET4_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 600,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH2.PARTY.4.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PARTY",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": true,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^USE_PORTAL",
+          "Title": "^UI_EXPED_USE_PORTAL_NAME",
+          "TitleUpper": "^UI_EXPED_USE_PORTAL_NAME_U",
+          "Description": "^UI_EXPED_USE_PORTAL_DESC",
+          "DescriptionDone": "^UI_EXPED_USE_PORTAL_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.PORTAL.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.PORTAL.ON.DDS"
+          },
+          "MissionIconSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.PORTAL.ON.DDS"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.PORTAL.OFF.DDS"
+          },
+          "Reward": "^RS_S11_S4M1",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^CASH_SCAN_CRE",
+          "Title": "^UI_EXPED11_CASH_SCAN_CRE_NAME",
+          "TitleUpper": "^UI_EXPED11_CASH_SCAN_CRE_NAME_U",
+          "Description": "^UI_EXPED_CASH_SCAN_CRE_DESC",
+          "DescriptionDone": "^UI_EXPED_CASH_SCAN_CRE_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 50000,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATUREFEED.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.money.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.money.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.money.off.dds"
+          },
+          "Reward": "^RS_S11_S4M2",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAR_BLUE",
+          "Title": "^UI_EXPED_STAR_BLUE_NAME",
+          "TitleUpper": "^UI_EXPED_STAR_BLUE_NAME_U",
+          "Description": "^UI_EXPED_STAR_BLUE_DESC",
+          "DescriptionDone": "^UI_EXPED_STAR_BLUE_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.bluesystem.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.specialsystem.off.dds"
+          },
+          "Reward": "^RS_S11_S4M3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^DIVE_DEEP",
+          "Title": "^UI_EXPED11_DIVE_DEEP_NAME",
+          "TitleUpper": "^UI_EXPED11_DIVE_DEEP_NAME_U",
+          "Description": "^UI_EXPED11_DIVE_DEEP_DESC",
+          "DescriptionDone": "^UI_EXPED11_DIVE_DEEP_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 65,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.underthesea.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.water.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.water.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.water.off.dds"
+          },
+          "Reward": "^RS_S11_S4M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^BLACKHOLE",
+          "Title": "^UI_EXPED_BLACKHOLE_NAME",
+          "TitleUpper": "^UI_EXPED_BLACKHOLE_NAME_U",
+          "Description": "^UI_EXPED_BLACKHOLE_DESC",
+          "DescriptionDone": "^UI_EXPED_BLACKHOLE_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.blackhole.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.off.dds"
+          },
+          "Reward": "^RS_S11_S4M5",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^CRE_WATER",
+          "Title": "^UI_EXPED11_CRE_WATER_NAME",
+          "TitleUpper": "^UI_EXPED11_CRE_WATER_NAME_U",
+          "Description": "^UI_EXPED11_CRE_WATER_DESC",
+          "DescriptionDone": "^UI_EXPED11_CRE_WATER_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 4,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.creatureunderwater.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S11_S4M6",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^UNWLOOT",
+          "Title": "^UI_EXPED11_UNWLOOT_NAME",
+          "TitleUpper": "^UI_EXPED11_UNWLOOT_NAME_U",
+          "Description": "^UI_EXPED11_UNWLOOT_DESC",
+          "DescriptionDone": "^UI_EXPED11_UNWLOOT_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.underwatertreasure.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.water.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.water.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.water.off.dds"
+          },
+          "Reward": "^RS_S11_S4M7",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^STAGE4",
+          "Title": "^UI_EXPED_STAGE4_NAME",
+          "TitleUpper": "^UI_EXPED_STAGE4_NAME_U",
+          "Description": "^UI_EXPED_STAGE4_DESC",
+          "DescriptionDone": "^UI_EXPED_STAGE4_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 1,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.4.DDS"
+          },
+          "IconGrey": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.4.GREY.DDS"
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PHASE4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": true,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        }
+      ],
+      "Title": "^UI_EXPED_STAGE_TITLE_4",
+      "Description": "^UI_EXPED_STAGE_DESC_4"
+    },
+    {
+      "Milestones": [
+        {
+          "Mission": "^PARTY_PLANET5",
+          "Title": "^UI_EXPED_PARTY_PLANET5_NAME",
+          "TitleUpper": "^UI_EXPED_PARTY_PLANET5_NAME_U",
+          "Description": "^UI_EXPED_PARTY_PLANET5_DESC",
+          "DescriptionDone": "^UI_EXPED_PARTY_PLANET5_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 600,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH2.PARTY.5.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
+          },
+          "Reward": "^RS_S11_PARTY",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": true,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^BASIC_SCAN_PLA",
+          "Title": "^UI_EXPED_BASIC_SCAN_PLA_NAME",
+          "TitleUpper": "^UI_EXPED_BASIC_SCAN_PLA_NAME_U",
+          "Description": "^UI_EXPED_BASIC_SCAN_PLA_DESC",
+          "DescriptionDone": "^UI_EXPED_BASIC_SCAN_PLA_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 12,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.PLANTS.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.treescan.off.dds"
+          },
+          "Reward": "^RS_S11_S5M1",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_PLANET_LUSH",
+          "Title": "^UI_EXPED_W_PLANET_LUSH_NAME",
+          "TitleUpper": "^UI_EXPED_W_PLANET_LUSH_NAME_U",
+          "Description": "^UI_EXPED_W_PLANET_LUSH_DESC",
+          "DescriptionDone": "^UI_EXPED_W_PLANET_LUSH_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 80,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.PLANETTYPES.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.planets.off.dds"
+          },
+          "Reward": "^RS_S11_S5M2",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^W_CRE_BIG",
+          "Title": "^UI_EXPED_W_CRE_BIG_NAME",
+          "TitleUpper": "^UI_EXPED_W_CRE_BIG_NAME_U",
+          "Description": "^UI_EXPED_W_CRE_BIG_DESC",
+          "DescriptionDone": "^UI_EXPED_W_CRE_BIG_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 5.199999809265137,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.CREATUREBABY.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S11_S5M3",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^CRE_WEIRD",
+          "Title": "^UI_EXPED_CRE_WEIRD_NAME",
+          "TitleUpper": "^UI_EXPED_CRE_WEIRD_NAME_U",
+          "Description": "^UI_EXPED_CRE_WEIRD_DESC",
+          "DescriptionDone": "^UI_EXPED_CRE_WEIRD_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 2,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "textures/ui/frontend/icons/expedition/patch.creatureweird.dds"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
+          },
+          "Reward": "^RS_S11_S5M4",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^GOT_NANITES",
+          "Title": "^UI_EXPED11_GOT_NANITES_NAME",
+          "TitleUpper": "^UI_EXPED11_GOT_NANITES_NAME_U",
+          "Description": "^UI_EXPED_GOT_NANITES_DESC",
+          "DescriptionDone": "^UI_EXPED_GOT_NANITES_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 7700,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/SPOOKWORM/PATCH.SPOOKY.NANITES.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.nanites.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.nanites.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.nanites.off.dds"
+          },
+          "Reward": "^RS_S11_S5M5",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^WORDS_EXP",
+          "Title": "^UI_EXPED_WORDS_EXP_NAME",
+          "TitleUpper": "^UI_EXPED_WORDS_EXP_NAME_U",
+          "Description": "^UI_EXPED_WORDS_EXP_DESC",
+          "DescriptionDone": "^UI_EXPED_WORDS_EXP_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 5,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.LEARN.2.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.on.dds"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.words.off.dds"
+          },
+          "Reward": "^RS_S11_S5M6",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
+          "IsStageControl": false,
+          "Encryption": {
+            "IsEncrypted": false,
+            "TitleUpper": "^",
+            "Subtitle": "^",
+            "Description": "^",
+            "Patch": {
+              "Filename": ""
+            },
+            "HoverPopupIcon": {
+              "Filename": ""
+            },
+            "DecryptMissionId": "^",
+            "DecryptMissionSeed": 0
+          }
+        },
+        {
+          "Mission": "^GET_ASTEROIDS",
+          "Title": "^UI_EXPED_ASTEROIDS_NAME",
+          "TitleUpper": "^UI_EXPED_ASTEROIDS_NAME_U",
+          "Description": "^UI_EXPED_ASTEROIDS_DESC",
+          "DescriptionDone": "^UI_EXPED_ASTEROIDS_DESC_D",
+          "CantRewardMessage": "^INTRCT_NOROOM_L",
+          "IdToUseInMissionData": "^",
+          "Amount": 25,
+          "StageIndex": 0,
+          "MilestoneIndex": 0,
+          "RendezvousIndex": -1,
+          "Icon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.SHIPSHOOT.DDS"
+          },
+          "IconGrey": {
+            "Filename": ""
+          },
+          "MissionIcon": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.LEAVEPLANET.ON.DDS"
+          },
+          "MissionIconSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.LEAVEPLANET.ON.DDS"
+          },
+          "MissionIconNotSelected": {
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/MISSIONS/EXPEDITIONMISSIONS/MISSION.LEAVEPLANET.OFF.DDS"
+          },
+          "Reward": "^RS_S11_S5M7",
+          "RewardSwitchAlt": "^",
+          "RewardDescription": "",
+          "CantClaimRewardDescription": "",
+          "IsOptional": false,
+          "GreyIfCantStart": false,
+          "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
             "IsEncrypted": false,
@@ -3282,15 +3568,15 @@
           "DescriptionDone": "^UI_EXPED_STAGE5_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 1,
+          "Amount": 100,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.5.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.5.DDS"
           },
           "IconGrey": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.milestone.5.grey.dds"
+            "Filename": "TEXTURES/UI/FRONTEND/ICONS/EXPEDITION/PATCH.NEONMILESTONE.5.GREY.DDS"
           },
           "MissionIcon": {
             "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
@@ -3301,7 +3587,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
           },
-          "Reward": "^RS_S3_PHASE5",
+          "Reward": "^RS_S11_PHASE5",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
@@ -3335,7 +3621,7 @@
         "Name": "^SE_PARTY_PLANET1",
         "ForceInteraction": "^",
         "ForceInteractionType": {
-          "InteractionType": "None"
+          "InteractionType": "Monolith"
         },
         "RequireInteractionRace": {
           "AlienRace": "None"
@@ -3349,32 +3635,32 @@
         "ForceOverrideEncounter": "^",
         "IsCommunityPortalOverride": false,
         "ClearForcedInteractionOnCompletion": false,
-        "BuildingPreventionRadius": 800,
+        "BuildingPreventionRadius": 600,
         "UseMissionTradingDataOverride": false,
         "AlwaysShow": false,
         "NeverShow": false,
         "ShowOnlyIfSequenceTarget": false,
         "PlanetLabelText": "^",
-        "SurveyDistance": 1200,
+        "SurveyDistance": 1800,
         "SurveyDiscoveryOSDMessage": "^UI_MISSIONMARKER_DISC_OSD",
         "EventStartType": "Special",
         "EventEndType": "Interact",
         "EventPriority": "Regular",
-        "CanEndFromOutsideMission": true,
+        "CanEndFromOutsideMission": false,
         "DisableMultiplayerSync": true,
         "BlockStartedOnUseEvents": false,
         "ReplaceEventIfAlreadyActive": false,
         "BuildingLocation": "PlanetSearch",
         "BuildingType": "BuildingClass",
         "BuildingClass": {
-          "BuildingClass": "StoryGlitch"
+          "BuildingClass": "Monolith"
         },
         "AllowFriendsBases": false,
         "ForceWideRandom": false,
         "MustFindSystem": true,
         "AllowOverriddenBuildings": true,
         "TargetMustMatchMissionSeed": false,
-        "SolarSystemLocation": "FromList",
+        "SolarSystemLocation": "SeasonParty",
         "SolarSystemAttributes": {
           "UseStarType": false,
           "UseWealth": false,
@@ -3404,7 +3690,7 @@
           "NeverAllowAbandoned": false,
           "RequireUndiscovered": false,
           "NeedsWaterPlanet": false,
-          "NeedsPrimePlanet": false,
+          "NeedsPrimePlanet": true,
           "NeedsSentinels": false,
           "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
@@ -3416,7 +3702,7 @@
           "AnyInfestedBiome": false,
           "NeedsBiome": true,
           "NeedsBiomeType": {
-            "Biome": "Weird"
+            "Biome": "Lava"
           },
           "UseBiomeSubType": {
             "BiomeSubType": "None"
@@ -3491,9 +3777,7 @@
           "Triggers": [],
           "AllowRetrigger": false
         },
-        "UAsList": [
-          "0020330003624cae"
-        ],
+        "UAsList": [],
         "TechShopType": {
           "TechnologyCategory": "All"
         },
@@ -3533,7 +3817,7 @@
         "Name": "^SE_PARTY_PLANET2",
         "ForceInteraction": "^",
         "ForceInteractionType": {
-          "InteractionType": "None"
+          "InteractionType": "LibraryMainTerminal"
         },
         "RequireInteractionRace": {
           "AlienRace": "None"
@@ -3547,14 +3831,14 @@
         "ForceOverrideEncounter": "^",
         "IsCommunityPortalOverride": false,
         "ClearForcedInteractionOnCompletion": false,
-        "BuildingPreventionRadius": 800,
+        "BuildingPreventionRadius": 600,
         "UseMissionTradingDataOverride": false,
         "AlwaysShow": false,
         "NeverShow": false,
         "ShowOnlyIfSequenceTarget": false,
         "PlanetLabelText": "^",
-        "SurveyDistance": 1000,
-        "SurveyDiscoveryOSDMessage": "^UI_PARTY_PLANET_SURVEY_OSD",
+        "SurveyDistance": 1800,
+        "SurveyDiscoveryOSDMessage": "^UI_MISSIONMARKER_DISC_OSD",
         "EventStartType": "Special",
         "EventEndType": "Interact",
         "EventPriority": "Regular",
@@ -3607,17 +3891,17 @@
           "NeedsCorruptSentinelPlanet": false,
           "NeedsExtremeSentinelPlanet": false,
           "NeverAllowExtremeSentinelPlanet": false,
-          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeWeatherPlanet": true,
           "NeedsExtremeHazardPlanet": false,
           "AnyBiomeNotWeirdOrDead": false,
           "AnyRGBBiome": false,
           "AnyInfestedBiome": false,
           "NeedsBiome": true,
           "NeedsBiomeType": {
-            "Biome": "Radioactive"
+            "Biome": "Toxic"
           },
           "UseBiomeSubType": {
-            "BiomeSubType": "None"
+            "BiomeSubType": "Variant_A"
           },
           "NeedsEmptySystem": false,
           "NeedsAbandonedSystem": false,
@@ -3724,6 +4008,594 @@
             "Samplers": []
           }
         }
+      },
+      {
+        "Name": "^SE_PARTY_PLANET3",
+        "ForceInteraction": "^",
+        "ForceInteractionType": {
+          "InteractionType": "Portal"
+        },
+        "RequireInteractionRace": {
+          "AlienRace": "None"
+        },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
+        "ForceBroken": false,
+        "ForceFixed": false,
+        "ForceOverridesAll": true,
+        "ForceOverrideEncounter": "^",
+        "IsCommunityPortalOverride": false,
+        "ClearForcedInteractionOnCompletion": false,
+        "BuildingPreventionRadius": 600,
+        "UseMissionTradingDataOverride": false,
+        "AlwaysShow": false,
+        "NeverShow": false,
+        "ShowOnlyIfSequenceTarget": false,
+        "PlanetLabelText": "^",
+        "SurveyDistance": 300,
+        "SurveyDiscoveryOSDMessage": "^UI_MISSIONMARKER_DISC_OSD",
+        "EventStartType": "Special",
+        "EventEndType": "Interact",
+        "EventPriority": "Regular",
+        "CanEndFromOutsideMission": false,
+        "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
+        "ReplaceEventIfAlreadyActive": false,
+        "BuildingLocation": "PlanetSearch",
+        "BuildingType": "BuildingClass",
+        "BuildingClass": {
+          "BuildingClass": "Portal"
+        },
+        "AllowFriendsBases": false,
+        "ForceWideRandom": false,
+        "MustFindSystem": true,
+        "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
+        "SolarSystemLocation": "SeasonParty",
+        "SolarSystemAttributes": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": false,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": false,
+          "NeedsPrimePlanet": true,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": true,
+          "NeedsBiomeType": {
+            "Biome": "Lush"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "Variant_A"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "SolarSystemAttributesFallback": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": false,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": false,
+          "NeedsPrimePlanet": false,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": false,
+          "NeedsBiomeType": {
+            "Biome": "Lush"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "None"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "ForceRestartInteraction": true,
+        "HasReward": "^",
+        "NextOption": "^",
+        "TriggerActions": {
+          "Range": 100,
+          "Triggers": [],
+          "AllowRetrigger": false
+        },
+        "UAsList": [],
+        "TechShopType": {
+          "TechnologyCategory": "All"
+        },
+        "OSDMessage": "",
+        "InterstellarOSDMessage": "",
+        "MarkerLabel": "UI_EXPED_PARTY_PLANET3_NAME",
+        "MarkerIcon": {
+          "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+        },
+        "MissionMarkerHighlightStyleOverride": {
+          "ScannerIconHighlightType": "Diamond"
+        },
+        "StartTime": 0,
+        "MessageTime": 0,
+        "MessageDisplayTime": 4,
+        "MessageAudio": {
+          "AkEvent": "INVALID_EVENT"
+        },
+        "IconTime": 4,
+        "TooltipTime": 10,
+        "TooltipRepeats": false,
+        "ShowEndTooltip": true,
+        "TooltipMessage": "",
+        "ResourceOverride": {
+          "Filename": "",
+          "Seed": [
+            false,
+            "0x0"
+          ],
+          "AltId": "",
+          "ProceduralTexture": {
+            "Samplers": []
+          }
+        }
+      },
+      {
+        "Name": "^SE_PARTY_PLANET4",
+        "ForceInteraction": "^",
+        "ForceInteractionType": {
+          "InteractionType": "Plaque"
+        },
+        "RequireInteractionRace": {
+          "AlienRace": "None"
+        },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
+        "ForceBroken": false,
+        "ForceFixed": false,
+        "ForceOverridesAll": true,
+        "ForceOverrideEncounter": "^",
+        "IsCommunityPortalOverride": false,
+        "ClearForcedInteractionOnCompletion": false,
+        "BuildingPreventionRadius": 600,
+        "UseMissionTradingDataOverride": false,
+        "AlwaysShow": false,
+        "NeverShow": false,
+        "ShowOnlyIfSequenceTarget": false,
+        "PlanetLabelText": "^",
+        "SurveyDistance": 1800,
+        "SurveyDiscoveryOSDMessage": "^UI_MISSIONMARKER_DISC_OSD",
+        "EventStartType": "Special",
+        "EventEndType": "Interact",
+        "EventPriority": "Regular",
+        "CanEndFromOutsideMission": false,
+        "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
+        "ReplaceEventIfAlreadyActive": false,
+        "BuildingLocation": "PlanetSearch",
+        "BuildingType": "BuildingClass",
+        "BuildingClass": {
+          "BuildingClass": "WaterTreasureRuins"
+        },
+        "AllowFriendsBases": false,
+        "ForceWideRandom": false,
+        "MustFindSystem": true,
+        "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
+        "SolarSystemLocation": "SeasonParty",
+        "SolarSystemAttributes": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": true,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": true,
+          "NeedsPrimePlanet": false,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": true,
+          "NeedsBiomeType": {
+            "Biome": "Blue"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "None"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "SolarSystemAttributesFallback": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": false,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": false,
+          "NeedsPrimePlanet": false,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": false,
+          "NeedsBiomeType": {
+            "Biome": "Lush"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "None"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "ForceRestartInteraction": true,
+        "HasReward": "^",
+        "NextOption": "^",
+        "TriggerActions": {
+          "Range": 100,
+          "Triggers": [],
+          "AllowRetrigger": false
+        },
+        "UAsList": [],
+        "TechShopType": {
+          "TechnologyCategory": "All"
+        },
+        "OSDMessage": "",
+        "InterstellarOSDMessage": "",
+        "MarkerLabel": "UI_EXPED_PARTY_PLANET4_NAME",
+        "MarkerIcon": {
+          "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+        },
+        "MissionMarkerHighlightStyleOverride": {
+          "ScannerIconHighlightType": "Diamond"
+        },
+        "StartTime": 0,
+        "MessageTime": 0,
+        "MessageDisplayTime": 4,
+        "MessageAudio": {
+          "AkEvent": "INVALID_EVENT"
+        },
+        "IconTime": 4,
+        "TooltipTime": 10,
+        "TooltipRepeats": false,
+        "ShowEndTooltip": true,
+        "TooltipMessage": "",
+        "ResourceOverride": {
+          "Filename": "",
+          "Seed": [
+            false,
+            "0x0"
+          ],
+          "AltId": "",
+          "ProceduralTexture": {
+            "Samplers": []
+          }
+        }
+      },
+      {
+        "Name": "^SE_PARTY_PLANET5",
+        "ForceInteraction": "^",
+        "ForceInteractionType": {
+          "InteractionType": "GlitchyStoryBox"
+        },
+        "RequireInteractionRace": {
+          "AlienRace": "None"
+        },
+        "OverrideInteractionRace": {
+          "AlienRace": "None"
+        },
+        "ForceBroken": false,
+        "ForceFixed": false,
+        "ForceOverridesAll": true,
+        "ForceOverrideEncounter": "^",
+        "IsCommunityPortalOverride": false,
+        "ClearForcedInteractionOnCompletion": false,
+        "BuildingPreventionRadius": 600,
+        "UseMissionTradingDataOverride": false,
+        "AlwaysShow": false,
+        "NeverShow": false,
+        "ShowOnlyIfSequenceTarget": false,
+        "PlanetLabelText": "^",
+        "SurveyDistance": 1800,
+        "SurveyDiscoveryOSDMessage": "^UI_MISSIONMARKER_DISC_OSD",
+        "EventStartType": "Special",
+        "EventEndType": "Interact",
+        "EventPriority": "Regular",
+        "CanEndFromOutsideMission": false,
+        "DisableMultiplayerSync": true,
+        "BlockStartedOnUseEvents": false,
+        "ReplaceEventIfAlreadyActive": false,
+        "BuildingLocation": "PlanetSearch",
+        "BuildingType": "BuildingClass",
+        "BuildingClass": {
+          "BuildingClass": "StoryGlitch"
+        },
+        "AllowFriendsBases": false,
+        "ForceWideRandom": false,
+        "MustFindSystem": true,
+        "AllowOverriddenBuildings": true,
+        "TargetMustMatchMissionSeed": false,
+        "SolarSystemLocation": "SeasonParty",
+        "SolarSystemAttributes": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": false,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": false,
+          "NeedsPrimePlanet": false,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": true,
+          "NeedsBiomeType": {
+            "Biome": "Weird"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "HydroGarden"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "SolarSystemAttributesFallback": {
+          "UseStarType": false,
+          "UseWealth": false,
+          "UseTrading": false,
+          "UseRace": {
+            "AlienRace": "None"
+          },
+          "UseAnomaly": {
+            "GalaxyStarAnomaly": "None"
+          },
+          "UseConflict": {
+            "ConflictLevel": "Default"
+          },
+          "StarType": {
+            "GalaxyStarType": "Yellow"
+          },
+          "TradingData": {
+            "WealthClass": {
+              "WealthClass": "Average"
+            },
+            "TradingClass": {
+              "TradingClass": "Mining"
+            }
+          },
+          "AllowUnsafeMatches": false,
+          "NeverAllowEmpty": false,
+          "NeverAllowAbandoned": false,
+          "RequireUndiscovered": false,
+          "NeedsWaterPlanet": false,
+          "NeedsPrimePlanet": false,
+          "NeedsSentinels": false,
+          "NeedsCorruptSentinelPlanet": false,
+          "NeedsExtremeSentinelPlanet": false,
+          "NeverAllowExtremeSentinelPlanet": false,
+          "NeedsExtremeWeatherPlanet": false,
+          "NeedsExtremeHazardPlanet": false,
+          "AnyBiomeNotWeirdOrDead": false,
+          "AnyRGBBiome": false,
+          "AnyInfestedBiome": false,
+          "NeedsBiome": false,
+          "NeedsBiomeType": {
+            "Biome": "Lush"
+          },
+          "UseBiomeSubType": {
+            "BiomeSubType": "None"
+          },
+          "NeedsEmptySystem": false,
+          "NeedsAbandonedSystem": false,
+          "NeedsResourceHint": "^",
+          "SuitableForCreatureDiscovery": false,
+          "SuitableForCreatureTaming": false,
+          "SamePlanetAsEvent": "^",
+          "SamePlanetAsSeasonParty": 0
+        },
+        "ForceRestartInteraction": true,
+        "HasReward": "^",
+        "NextOption": "^",
+        "TriggerActions": {
+          "Range": 100,
+          "Triggers": [],
+          "AllowRetrigger": false
+        },
+        "UAsList": [],
+        "TechShopType": {
+          "TechnologyCategory": "All"
+        },
+        "OSDMessage": "",
+        "InterstellarOSDMessage": "",
+        "MarkerLabel": "UI_EXPED_PARTY_PLANET5_NAME",
+        "MarkerIcon": {
+          "Filename": "textures/ui/hud/icons/missions/mission.seasonal.dds"
+        },
+        "MissionMarkerHighlightStyleOverride": {
+          "ScannerIconHighlightType": "Diamond"
+        },
+        "StartTime": 0,
+        "MessageTime": 0,
+        "MessageDisplayTime": 4,
+        "MessageAudio": {
+          "AkEvent": "INVALID_EVENT"
+        },
+        "IconTime": 4,
+        "TooltipTime": 10,
+        "TooltipRepeats": false,
+        "ShowEndTooltip": true,
+        "TooltipMessage": "",
+        "ResourceOverride": {
+          "Filename": "",
+          "Seed": [
+            false,
+            "0x0"
+          ],
+          "AltId": "",
+          "ProceduralTexture": {
+            "Samplers": []
+          }
+        }
       }
     ]
   },
@@ -3731,119 +4603,7 @@
   "StatsToPersistOnReset": [],
   "CompatibleWithState": true,
   "HasBeenConverted": false,
-  "TechnologyTable": [
-    {
-      "ID": "^SHIP_LIFESUP",
-      "Group": "^",
-      "Name": "SHIP_LIFESUPPORT_SPEC_NAME",
-      "NameLower": "SHIP_LIFESUPPORT_SPEC_NAME_L",
-      "Subtitle": "SHIP_LIFESUPPORT_SUB",
-      "Description": "SHIP_LIFESUPPORT_SPEC_DESC",
-      "Teach": true,
-      "HintStart": "^",
-      "HintEnd": "^",
-      "Icon": {
-        "Filename": "Textures\\UI\\Frontend\\Icons\\Update3\\TradeProd.Tech5.dds"
-      },
-      "Colour": [
-        0.10196100175380707,
-        0.1529410034418106,
-        0.20000000298023224,
-        1
-      ],
-      "Level": 1,
-      "Chargeable": true,
-      "ChargeAmount": 120,
-      "ChargeType": {
-        "SubstanceCategory": "Fuel"
-      },
-      "ChargeBy": [
-        "^HYPERFUEL1",
-        "^HYPERFUEL2"
-      ],
-      "ChargeMultiplier": 1,
-      "BuildFullyCharged": false,
-      "UsesAmmo": false,
-      "AmmoId": "^",
-      "PrimaryItem": true,
-      "Upgrade": false,
-      "Core": true,
-      "RepairTech": false,
-      "Procedural": false,
-      "Category": {
-        "TechnologyCategory": "Ship"
-      },
-      "Rarity": {
-        "TechnologyRarity": "Impossible"
-      },
-      "Value": 10,
-      "Requirements": [
-        {
-          "ID": "^FUEL2",
-          "Type": {
-            "InventoryType": "Substance"
-          },
-          "Amount": 125
-        },
-        {
-          "ID": "^ALLOY5",
-          "Type": {
-            "InventoryType": "Product"
-          },
-          "Amount": 4
-        }
-      ],
-      "BaseStat": {
-        "StatsType": "Ship_LifeSupport"
-      },
-      "StatBonuses": [
-        {
-          "Stat": {
-            "StatsType": "Ship_LifeSupport"
-          },
-          "Bonus": 1,
-          "Level": 1
-        }
-      ],
-      "RequiredTech": "^SHIP_LIFESUP",
-      "RequiredLevel": 0,
-      "FocusLocator": "^MAINTENANCESLOT1",
-      "UpgradeColour": [
-        1,
-        1,
-        1,
-        1
-      ],
-      "LinkColour": [
-        0.20000000298023224,
-        0.6000000238418579,
-        1,
-        1
-      ],
-      "RewardGroup": "^",
-      "BaseValue": 1,
-      "Cost": {
-        "SpaceStationMarkup": 0,
-        "LowPriceMod": 0,
-        "HighPriceMod": 0,
-        "BuyBaseMarkup": 0,
-        "BuyMarkupMod": 0
-      },
-      "RequiredRank": 2,
-      "DispensingRace": {
-        "AlienRace": "Traders"
-      },
-      "FragmentCost": 1,
-      "TechShopRarity": {
-        "TechnologyRarity": "Impossible"
-      },
-      "WikiEnabled": false,
-      "DamagedDescription": "",
-      "ParentTechId": "^",
-      "IsTemplate": false,
-      "ExclusivePrimaryStat": false
-    }
-  ],
+  "TechnologyTable": [],
   "ProductTable": [],
   "SubstanceTable": [],
   "SeasonalUAStationTradeData": {
