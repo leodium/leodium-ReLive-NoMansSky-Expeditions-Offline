@@ -4,6 +4,11 @@ Lore
 
 Cartographers is focused primarily on deep exploration of a single planet. This season places all expeditioners on the toxic world of Gisto Major, where their bespoke starship will require specialist attention to repair and launch into space.
 
+*** Special edition ***
+------
+This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
+
+
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
