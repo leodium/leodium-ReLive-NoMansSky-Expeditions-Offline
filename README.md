@@ -36,6 +36,10 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 - [x] Step 04 : Restart "No Man's Sky" in offline mode 
 <sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
 
+On SteamDeck :
+Press the Steam button, select power, enter desktop. On desktop, you will need to access the file browser.
+You will need to go to /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS [SteamID for NMS is 275850]
+
 > [!TIP]
 ><i>The expedition json file has no interaction with the 'classic' game saves. And it is not overwritten by anything: OnLine or OffLine, unless you replace it yourself or HelloGames releases a new expedition. Only these two cases can cause a "problem".
 >In these specific and unique cases, when you resume your current expedition, it will be explained to you that it stops where you are and that it will be transformed into a "classic game" in the same way as when you "normally" end an expedition. The solution is therefore not to enter the expedition save mode and to save the json file corresponding to your current expedition while remaining OffLine if it is the HelloGames expedition that has appeared.
