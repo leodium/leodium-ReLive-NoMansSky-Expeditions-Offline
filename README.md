@@ -32,7 +32,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - 👉🏻 Steam PC : %APPDATA%\HelloGames\NMS\cache
 > - 👉🏻 Steam Mac : ~/Library/Application Support/HelloGames/NMS/cache
 > - 👉🏻 MS Store/GOG : %APPDATA%\HelloGames\NMS\cache
-> - 👉🏻 SteamDeck :/home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS/cache
+> - 👉🏻 SteamDeck : /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS/cache
  
 - [x] Step 04 : Restart "No Man's Sky" in offline mode 
 <sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
