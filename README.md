@@ -38,6 +38,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 
 On SteamDeck :
 Press the Steam button, select power, enter desktop. On desktop, you will need to access the file browser.
+
 You will need to go to /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS [SteamID for NMS is 275850]
 
 > [!TIP]
