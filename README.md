@@ -5,7 +5,7 @@
 
 💾 <i>No modification/influence on saves !!! No intervention on game files ...</i>
 
-Available for Windows / MacOs (Steam/GoG) & SteamDeck
+Available for Windows / MacOs & SteamDeck
 
 > [!TIP]
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
