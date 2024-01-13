@@ -7,7 +7,10 @@ Why >
 The Exp09 Phase01 Milestone03 "Ground Control" cannot be validated as we are "offline".  With this json file, the milestone should activate itself.
 
 How >
-The procedure is to play/explore for a few minutes while an automatic backup is made. When it's done, exit the game and reload it. The milestone should be auto-validated ...
+They should self-validate by following the procedure: 
+- Load and place the json file in the cache
+- Explore for a few minutes to obtain a new auto-save
+- Exit the game and reload the auto-save
 
 After>
 Let me know if it works! (^^)
