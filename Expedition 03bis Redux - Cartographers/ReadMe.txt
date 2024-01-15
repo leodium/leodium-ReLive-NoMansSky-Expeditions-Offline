@@ -8,6 +8,8 @@ Cartographers is focused primarily on deep exploration of a single planet. This 
 ------
 This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
 
+> Go look this picture : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/blob/main/Expedition%2003bis%20Redux%20-%20Cartographers/Rewards_Cartographers.png
+
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
