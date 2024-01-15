@@ -1,15 +1,15 @@
+-------------
+*** This is a Special Edition ***
+-------------
+This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
+
+>Have a look at the image linked above the ReadMe.txt : Rewards_Cartographers.png
+
 Lore
 -----
 2023 : Awaken stranded on the fiery planet of Coul Major, and deeply explore its surface as you work to repair your bespoke starship. This Cartographers presents some of the most exciting and popular rewards from previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
 
 Cartographers is focused primarily on deep exploration of a single planet. This season places all expeditioners on the toxic world of Gisto Major, where their bespoke starship will require specialist attention to repair and launch into space.
-
-*** This is a Special edition ***
-------
-This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
-
->Have a look at the image linked above the ReadMe.txt : Rewards_Cartographers.png
-
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
