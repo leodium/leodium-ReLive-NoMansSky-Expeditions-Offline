@@ -6,6 +6,11 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 
+Any tips or tricks? 
+------
+Once you've found all the eggs in step 02 of Phase 3, you'll have the Nutrient Processor plan. Once it's built, there will be a new inventory that will unlock 'only' for food. This may help you to keep only your Honey Cake visible for Chronos ....
+
+
 Bug ?
 ---
 None recorded to date. Let me know if you have one :p
