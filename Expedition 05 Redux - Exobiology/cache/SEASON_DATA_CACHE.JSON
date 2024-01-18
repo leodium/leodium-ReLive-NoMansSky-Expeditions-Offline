@@ -2277,7 +2277,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.crescan.off.dds"
           },
-          "Reward": "^RS_S5_S3M1_R",
+          "Reward": "^RS_S11_S3M2",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
