@@ -41,7 +41,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 - [x] Step 04 : Restart "No Man's Sky" in offline mode 
 <sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
 
-A video was made on this subject by Dread Captain James : https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv
+:clapper: **A video was made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv)
 
 > [!TIP]
 ><i>The expedition json file has no interaction with the 'classic' game saves. And it is not overwritten by anything: OnLine or OffLine, unless you replace it yourself or HelloGames releases a new expedition. Only these two cases can cause a "problem".
