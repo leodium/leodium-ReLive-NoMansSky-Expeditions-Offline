@@ -77,4 +77,5 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 - https://app.nmsassistant.com/helloGames/seasonExpedition
 - https://estnn.com/?s=no+man+sky
 - https://estnn.com/the-ultimate-11-expeditions-tier-list-no-mans-sky-guide
-- https://www.nomansskyresources.com/updates-and-experimental</i>
+- https://www.nomansskyresources.com/updates-and-experimental
+- https://www.youtube.com/watch?v=TDZ-pl7wDIU&ab_channel=DreadCaptainJames</i>
