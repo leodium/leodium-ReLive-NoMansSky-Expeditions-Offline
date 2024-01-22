@@ -28,7 +28,7 @@
   "AdditionalTradeProducts": [],
   "StartingSuitSlots": 27,
   "StartingSuitTechSlots": 8,
-  "StartingSuitCargoSlots": 4,
+  "StartingSuitCargoSlots": 0,
   "WeaponSeed": [
     false,
     "0x0"
