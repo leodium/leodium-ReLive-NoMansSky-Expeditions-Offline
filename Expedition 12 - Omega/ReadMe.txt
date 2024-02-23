@@ -1,6 +1,6 @@
 Lore
 -----
-xxx
+Answer the call of the universe in a new community expedition. All participating Travellers begin a journey together on the beautiful planet Nafut Gamma, and plot a course through the galaxy. Explore, build, fight, and more through a diverse set of milestones, and unpick the threads of a mystery involving the past, the present, and what could be…
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
