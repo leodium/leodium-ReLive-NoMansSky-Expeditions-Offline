@@ -1,6 +1,6 @@
 Lore
 -----
-Voyagers is a relaxing journey of exploration, encouraging Travellers to seek out remarkable worlds, reach planetary summits and oceanbeds, and catalogue their findings.
+xxx
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
