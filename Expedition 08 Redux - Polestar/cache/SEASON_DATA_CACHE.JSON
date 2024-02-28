@@ -2172,7 +2172,7 @@
           "DescriptionDone": "^UI_VISIT_FREIGHTER_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 1,
+          "Amount": 0,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
