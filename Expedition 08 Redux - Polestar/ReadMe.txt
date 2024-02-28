@@ -5,6 +5,7 @@ Polestar offers travellers the chance to embark on an interstellar cruise. Repai
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+Self-validation of the optional step consisting of visiting another player's cargo ship since it is unthinkable in "offline" mode
 
 Bug ?
 ---
