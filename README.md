@@ -29,7 +29,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
  
 # ⚙️ How do you do this?
 - [x] Step 01 : Set your game software to "Offline". 
-<sup>(Read the note below to find out why)(Steam and GoG have an Offline mode) (worst case scenario : cut the wifi or network after downloading the file from step 2)</sup>
+<sup>(Steam and GoG have an Offline mode but prefere to cut the wifi or network after downloading the file from step 2)</sup>
 - [x] Step 02 : Download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - [x] Step 03 : Replace the file in your [cache] directory with the one you've just uploaded
 
@@ -38,8 +38,8 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - 👉🏻 MS Store/GOG : %APPDATA%\HelloGames\NMS\cache
 > - 👉🏻 SteamDeck : /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS/cache
  
-- [x] Step 04 : Restart "No Man's Sky" in offline mode 
-<sup>(You can play in online mode, but if HelloGames launches a new expedition, you risk losing the progress of the expedition you are currently redoing. That's the only risk involved.)</sup>
+- [x] Step 04 : Restart "No Man's Sky" in <sup>Offline mode 
+</sup>
 
 :clapper: **A video was made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv)
 
