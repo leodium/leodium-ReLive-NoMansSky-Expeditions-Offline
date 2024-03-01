@@ -5,6 +5,8 @@ Utopia introduces the Utopia Foundation and challenges players to work together 
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+Ph01Mile03AutoValidate is a test
+Ph01Mile04AutoValidate is a test
 Ph04Mile04AutoValidate is a test
 
 Bug ?
