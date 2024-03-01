@@ -38,8 +38,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - 👉🏻 MS Store/GOG : %APPDATA%\HelloGames\NMS\cache
 > - 👉🏻 SteamDeck : /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS/cache
  
-- [x] Step 04 : Restart "No Man's Sky" in <sup>Offline mode 
-</sup>
+- [x] Step 04 : Restart "No Man's Sky" in Offline mode.
 
 :clapper: **A video was made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv)
 
