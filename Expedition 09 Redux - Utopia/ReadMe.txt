@@ -4,8 +4,9 @@ Utopia introduces the Utopia Foundation and challenges players to work together 
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
-EndTimeUTC value --> 2893423600
-All the steps involved in online base validation have been set to AutoValidation ... but beware: you'll still need to build the base to be able to move forward ... In order, you'll need: the base computer, 4 wooden floors, 7 large wooden walls and 4 pieces of wooden roof. See the attached image for an idea of the model.
+- EndTimeUTC value --> 2893423600
+- All the steps involved in online base validation have been set to AutoValidation ... but beware: you'll still need to build the base to be able to move forward ... In order, you'll need: the base computer, 4 wooden floors, 7 large wooden walls and 4 pieces of wooden roof. See the attached image for an idea of the model.
+- An incorrect mission statement. I can't find the right value to put back, but you can read the details in the mission log.
 
 Bug ?
 ---
