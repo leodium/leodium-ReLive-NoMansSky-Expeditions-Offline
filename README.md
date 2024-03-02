@@ -72,6 +72,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - https://steamcommunity.com/sharedfiles/filedetails/?id=3107584216
 > - https://www.epochconverter.com/
 > - https://github.com/Lenni009/nms-archive
+> - https://nmsportals.github.io/
 
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
