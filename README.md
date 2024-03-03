@@ -28,8 +28,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 ><i>You are now in a directory of [SEASON_DATA_CACHE.json] files, allowing you to relive past No Man's Sky Expeditions as they were when they were released. Introduced with the Expeditions update, this mode features a series of time-limited events that begin at a fixed point in the universe. This allows the community to "embark on a shared journey". Each expedition is built around a series of milestones. These objectives can be achieved in any order, allowing players to obtain specific rewards, meet other players and experiment with different ways of playing.</i>
  
 # ⚙️ How do you do this?
-- [x] Step 01 : Set your game software to "Offline". 
-
+- [x] Step 01 : Set your game software to "Offline".
 <sup>(Steam and GoG have an Offline mode but prefere to cut the wifi or network after downloading the file from step 2)</sup>
 - [x] Step 02 : Download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - [x] Step 03 : Replace the file in your [cache] directory with the one you've just uploaded
