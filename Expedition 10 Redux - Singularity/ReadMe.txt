@@ -1,7 +1,7 @@
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
-Expedition 07 Redux - Leviathan
+Expedition 10 Redux - Singularity
 ==================================
 
 This file is >> AlsoInProgress << and supervised by Polo & Nada.
