@@ -1,4 +1,15 @@
-Lore
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 12 - Omega
+==================================
+
+It's the actual expeditions always avalaible.
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+
+Have a good game ...
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]Lore
 -----
 Answer the call of the universe in a new community expedition. All participating Travellers begin a journey together on the beautiful planet Nafut Gamma, and plot a course through the galaxy. Explore, build, fight, and more through a diverse set of milestones, and unpick the threads of a mystery involving the past, the present, and what could be…
 
