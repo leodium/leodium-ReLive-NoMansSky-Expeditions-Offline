@@ -1,3 +1,18 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 01 Redux - The Pionners
+==================================
+
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+
+Have a good game ...
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Emergence is focused primarily on deep exploration of a single planet and related sandworms. This season places all expeditioners on the planet Wasan, a barren world ravaged by dust storms and infested with Titan Worms.
