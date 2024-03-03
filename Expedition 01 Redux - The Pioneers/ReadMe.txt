@@ -4,7 +4,9 @@
 Expedition 01 Redux - The Pionners
 ==================================
 
-This file is approved by Polo & Nada
+This file is approved by Polo & Nada.
+It is playable & 100% functional
+
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
 
