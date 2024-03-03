@@ -4,11 +4,11 @@
 Expedition 07 Redux - Leviathan
 ==================================
 
-This file is >> AlsoInProgress << and supervised Polo & Nada.
+This file is >> AlsoInProgress << and supervised by Polo & Nada.
 It is playable for the most part but perhaps not yet 100% functional.
 However, a majority of the rewards will be accessible from your other saves.
-We're working on it.
 
+We're working on it.
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
 
