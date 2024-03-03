@@ -1,3 +1,18 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 01 Redux - The Pionners
+==================================
+
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+
+Have a good game ...
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Exobiology is focused primarily on discovering and interacting with the strange and varied alien creatures inhabiting the universe. This season places all expeditioners on a lonely star system devoid of wildlife, but with a towering bipedal creature companion to accompany them.
