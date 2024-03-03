@@ -1,8 +1,8 @@
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
-Expedition 07 Redux - Leviathan
-==================================
+Expedition 03bis Redux - Cartographers
+======================================
 
 This file is >> AlsoInProgress << and supervised by Polo & Nada.
 It is playable for the most part but perhaps not yet 100% functional.
