@@ -1,3 +1,18 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 01 Redux - The Pionners
+==================================
+
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+
+Have a good game ...
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Utopia introduces the Utopia Foundation and challenges players to work together and rebuild a solar system.
