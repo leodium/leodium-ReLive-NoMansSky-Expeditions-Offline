@@ -29,6 +29,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
  
 # ⚙️ How do you do this?
 - [x] Step 01 : Set your game software to "Offline". 
+
 <sup>(Steam and GoG have an Offline mode but prefere to cut the wifi or network after downloading the file from step 2)</sup>
 - [x] Step 02 : Download the "SEASON_DATA_CACHE.json" file from the cache directory of the Expedition you want to redo.
 - [x] Step 03 : Replace the file in your [cache] directory with the one you've just uploaded
