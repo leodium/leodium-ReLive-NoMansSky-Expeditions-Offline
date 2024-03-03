@@ -7,6 +7,7 @@ Expedition 01 Redux - The Pionners
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
+You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
