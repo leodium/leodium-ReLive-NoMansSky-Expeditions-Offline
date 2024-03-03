@@ -1,7 +1,7 @@
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 12 - Omega
-==================================
+=====================
 
 It's the actual expeditions always avalaible.
 This file is approved by Polo & Nada.
