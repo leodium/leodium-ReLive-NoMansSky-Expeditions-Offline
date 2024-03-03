@@ -1,3 +1,14 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 01 Redux - The Pionners
+==================================
+
+This file is approved by Polo & Nada
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Pioneers is focused on challenging players to complete an impressive variety of tasks across the galaxy, ranging from finding ancient artifacts to travelling through black holes, rewarding them with a gold-covered ship from long ago.
