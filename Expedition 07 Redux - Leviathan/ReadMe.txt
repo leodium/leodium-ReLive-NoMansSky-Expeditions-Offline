@@ -4,7 +4,7 @@
 Expedition 07 Redux - Leviathan
 ==================================
 
-This file is >> AlsoInProgress << by Polo & Nada
+This file is >> AlsoInProgress << and supervised Polo & Nada.
 It is playable for the most part but not yet 100% functional.
 We're working on it
 
