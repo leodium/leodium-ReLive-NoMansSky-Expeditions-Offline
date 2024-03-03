@@ -1,3 +1,17 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 07 Redux - Leviathan
+==================================
+
+This file is >> AlsoInProgress << by Polo & Nada
+It is playable for the most part but not yet 100% functional.
+We're working on it
+
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Leviathan traps Travellers inside a time loop, and offers a taste of roguelike gameplay. Difficulty is tuned to survival mode settings, and every death means a reset of the loop.
