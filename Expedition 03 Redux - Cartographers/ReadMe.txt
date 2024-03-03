@@ -1,3 +1,18 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 01 Redux - The Pionners
+==================================
+
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+
+Have a good game ...
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Cartographers is focused primarily on deep exploration of a single planet. This season places all expeditioners on the toxic world of Gisto Major, where their bespoke starship will require specialist attention to repair and launch into space.
