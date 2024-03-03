@@ -1,8 +1,8 @@
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
-Expedition 01 Redux - The Pionners
-==================================
+Expedition 08 Redux - Polestar
+==============================
 
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
