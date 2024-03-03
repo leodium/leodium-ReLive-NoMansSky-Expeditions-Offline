@@ -1,3 +1,18 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 07 Redux - Leviathan
+==================================
+
+This file is >> AlsoInProgress << and supervised by Polo & Nada.
+It is playable for the most part but perhaps not yet 100% functional.
+However, a majority of the rewards will be accessible from your other saves.
+
+We're working on it.
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 Lore
 -----
 Voyagers is a relaxing journey of exploration, encouraging Travellers to seek out remarkable worlds, reach planetary summits and oceanbeds, and catalogue their findings.
