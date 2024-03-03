@@ -1,10 +1,24 @@
+
+¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
+
+Expedition 07 Redux - Leviathan
+==================================
+
+This file is >> AlsoInProgress << and supervised by Polo & Nada.
+It is playable for the most part but perhaps not yet 100% functional.
+However, a majority of the rewards will be accessible from your other saves.
+
+We're working on it.
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+
 -------------
 *** This is a Special Edition ***
 -------------
 This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
 
 >>> Have a look at the image linked above the ReadMe.txt : Rewards_Cartographers.png
-
 
 
 Lore
