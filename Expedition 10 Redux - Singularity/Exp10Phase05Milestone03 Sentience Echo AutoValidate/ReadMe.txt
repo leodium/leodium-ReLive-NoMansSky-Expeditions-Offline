@@ -14,19 +14,19 @@ They should self-validate by following the procedure:
 
 Debug >
 Phase05Step01.png
-Stage 01 completed (arrival in the autophagous village) and Rewards acquired (Progress 02/06)
-Stage 02 still to be completed
-Stage 03 completed but encrypted as stage 02 has not been completed, so rewards cannot be collected
+Step 01 completed (arrival in the autophagous village) and Rewards acquired (Progress 02/06)
+Step  02 still to be completed
+Step 03 completed but encrypted as stage 02 has not been completed, so rewards cannot be collected
 
 Phase05Step02.png
-Stage 01 completed (arrival in the autophagous village) and rewards acquired (Progression 03/06) 
+Step 01 completed (arrival in the autophagous village) and rewards acquired (Progression 03/06) 
 Step 02 completed (talk to autophage) and rewards to be collected
 Step 03 completed and deciphered since step 02 has been completed 
 
 Phase05Step03.png
 Step 01 completed (arrival in autophage village) and Rewards acquired (Progression 03/06) 
-Stage 02 completed (talk to autophage) and Rewards acquired
-Stage 03 completed, decypted and Rewards recovered
+Step 02 completed (talk to autophage) and Rewards acquired
+Step 03 completed, decypted and Rewards recovered
 
 After>
 Let me know if it works! (^^)
