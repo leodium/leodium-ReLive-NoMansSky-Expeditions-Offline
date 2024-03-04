@@ -3103,7 +3103,7 @@
           "DescriptionDone": "^UI_S10_CONTRIB_ALL_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 1,
+          "Amount": 0,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -3253,7 +3253,7 @@
           "DescriptionDone": "^UI_S10_ASSEMBLY5_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^S10_REMIX_ALL",
-          "Amount": 1,
+          "Amount": 0,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -3281,7 +3281,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_S10_ENCRYPTED_NAME4_U",
             "Subtitle": "^UI_S10_ENCRYPTED_SUB4",
             "Description": "^UI_S10_ENCRYPTED_DESC",
@@ -3292,7 +3292,7 @@
               "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.atlas.on.dds"
             },
             "DecryptMissionId": "^S10_REMIX_ALL",
-            "DecryptMissionSeed": 42
+            "DecryptMissionSeed": 0
           }
         },
         {
@@ -3303,7 +3303,7 @@
           "DescriptionDone": "^UI_S10_IGNITION_A_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^S10_REMIX_ALL",
-          "Amount": 1,
+          "Amount": 0,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -3331,7 +3331,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_S10_ENCRYPTED_NAME5_U",
             "Subtitle": "^UI_S10_ENCRYPTED_SUB5",
             "Description": "^UI_S10_ENCRYPTED_DESC",
@@ -3342,7 +3342,7 @@
               "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.atlas.on.dds"
             },
             "DecryptMissionId": "^S10_REMIX_ALL",
-            "DecryptMissionSeed": 42
+            "DecryptMissionSeed": 0
           }
         },
         {
@@ -3353,7 +3353,7 @@
           "DescriptionDone": "^UI_S10_IGNITION_B_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^S10_REMIX_ALL",
-          "Amount": 1,
+          "Amount": 0,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -3381,7 +3381,7 @@
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
-            "IsEncrypted": true,
+            "IsEncrypted": false,
             "TitleUpper": "^UI_S10_ENCRYPTED_NAME5_U",
             "Subtitle": "^UI_S10_ENCRYPTED_SUB6",
             "Description": "^UI_S10_ENCRYPTED_DESC",
@@ -3392,7 +3392,7 @@
               "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.atlas.on.dds"
             },
             "DecryptMissionId": "^S10_REMIX_ALL",
-            "DecryptMissionSeed": 42
+            "DecryptMissionSeed": 0
           }
         },
         {
