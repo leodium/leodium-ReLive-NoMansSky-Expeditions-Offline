@@ -22,7 +22,7 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 The Exp10 Phase05 Milestone03 "Sentience Echo" cannot be validated as we are "offline".  With this json file, the milestone should activate itself.
-The Exp10 Phase05 Milestones 06-07-08 depend on the online completion of Milestone03, so it was also necessary to put them in auto-validation.
+The Exp10 Phase05 Milestones06-07-08 depend on the online completion of Milestone03, so it was also necessary to put them in auto-validation.
 As a result, you can choose to acquire only one of the 2 possible helmets... or to take both.
 
 Bug ?
