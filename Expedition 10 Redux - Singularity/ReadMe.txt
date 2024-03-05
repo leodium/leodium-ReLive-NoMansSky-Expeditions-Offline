@@ -4,11 +4,12 @@
 Expedition 10 Redux - Singularity
 ==================================
 
-This file is >> AlsoInProgress << and supervised by Polo & Nada.
-It is playable for the most part but perhaps not yet 100% functional.
-However, a majority of the rewards will be accessible from your other saves.
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
 
-We're working on it.
+Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
 
@@ -20,6 +21,9 @@ Singularity is focused on the history and origin of the Harmonic Camps in a myst
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+The Exp10 Phase05 Milestone03 "Sentience Echo" cannot be validated as we are "offline".  With this json file, the milestone should activate itself.
+The Exp10 Phase05 Milestones 06-07-08 depend on the online completion of Milestone03, so it was also necessary to put them in auto-validation.
+As a result, you can choose to acquire only one of the 2 possible helmets... or to take both.
 
 Bug ?
 ---
