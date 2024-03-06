@@ -16,27 +16,6 @@
   "DifficultySettingPreset": {
     "DifficultyPresetType": "Normal"
   },
-  "SeasonTransferInventoryConfig": {
-    "Width": 8,
-    "Layout": {
-      "Slots": 32,
-      "Seed": [
-        true,
-        "0x1"
-      ],
-      "Level": 1
-    },
-    "SlotItemFilterIDs": [
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-      "^TECH_PRODS",
-    ]
-  },
   "DifficultyMinimums": {
     "SettingsLocked": false,
     "InventoriesAlwaysInRange": false,
@@ -217,6 +196,27 @@
     "IsCool": false,
     "Name": "",
     "Version": 0
+  },
+  "SeasonTransferInventoryConfig": {
+    "Width": 8,
+    "Layout": {
+      "Slots": 32,
+      "Seed": [
+        true,
+        "0x1"
+      ],
+      "Level": 1
+    },
+    "SlotItemFilterIDs": [
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+      "^TECH_PRODS",
+    ]
   },
   "Inventory_TechOnly": {
     "Slots": [],
