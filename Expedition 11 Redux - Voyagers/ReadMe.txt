@@ -1,3 +1,5 @@
+help : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_with_redux_mission_im_having_an_awful/
+
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
