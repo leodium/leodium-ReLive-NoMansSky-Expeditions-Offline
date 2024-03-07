@@ -1,10 +1,7 @@
-# ReLive-NoMansSky-Expeditions-Offline
+# ReLive-NoMansSky-Expeditions-Offline 
 
-:trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket:
-<i>with a simple copy/paste of a file into a directory ... </i>
-
-💾 <i>No modification/influence on saves !!! No intervention on game files ...</i>
-
+:trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket: <i>with a simple copy/paste of a file into a directory ... </i>  
+💾 <i>No modification/influence on saves !!! No intervention on game files ...</i>  
 Available for Windows / MacOs & SteamDeck
 
 <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  
