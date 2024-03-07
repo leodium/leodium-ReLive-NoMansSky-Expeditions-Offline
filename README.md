@@ -9,7 +9,6 @@ Available for Windows / MacOs & SteamDeck
 
 <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... .</b>
 I still need to check a few details on :
-- Expedition 11 Voyagers (**in progress**)
 - Expedition 03bis (special vacation 2023)
 - Expedition 07 Leviathan (permadeath mode)
 
