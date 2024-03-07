@@ -1,4 +1,4 @@
-help : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_with_redux_mission_im_having_an_awful/
+HelpForYou : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_with_redux_mission_im_having_an_awful/
 
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
@@ -6,11 +6,12 @@ help : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_wi
 Expedition 11 Redux - Voyagers
 ==============================
 
-This file is >> AlsoInProgress << and supervised by Polo & Nada.
-It is playable for the most part but perhaps not yet 100% functional.
-However, a majority of the rewards will be accessible from your other saves.
+This file is approved by Polo & Nada.
+It is playable & 100% functional.
+All rewards will be accessible from your other saves.
+You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
 
-We're working on it.
+Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
 
