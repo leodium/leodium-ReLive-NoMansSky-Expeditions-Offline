@@ -7,13 +7,13 @@
 
 Available for Windows / MacOs & SteamDeck
 
-<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... .</b>
-I still need to check a few details on :
-- [ ] Expedition 03bis (special vacation 2023)
-- [ ] Expedition 07 Leviathan (permadeath mode)
+<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  
+I still need to check a few details on :  
+:on: Expedition 03bis (special vacation 2023)  
+:on: Expedition 07 Leviathan (permadeath mode)
 
 
-
+    
 > [!TIP]
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
 <i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
