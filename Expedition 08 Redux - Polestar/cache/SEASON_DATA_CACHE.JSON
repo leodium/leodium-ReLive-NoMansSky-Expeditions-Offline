@@ -121,12 +121,12 @@
   "ShipType": {
     "ShipClass": "Shuttle"
   },
-  "StartWithFreighter": true,
+  "StartWithFreighter": false,
   "FreighterBaseOverrideFilename": "metadata/simulation/freighterbases/fishparadise.mxml",
   "FreighterRace": {
     "AlienRace": "None"
   },
-  "StartAboardFreighter": true,
+  "StartAboardFreighter": false,
   "ValidSpawnBuildings": [
     {
       "BuildingClass": "GameStartSpawn"
