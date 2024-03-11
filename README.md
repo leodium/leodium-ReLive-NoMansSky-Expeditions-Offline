@@ -9,13 +9,13 @@ I still need to check a few details on :
 :on: Expedition 03bis (special vacation 2023)  
 :on: Expedition 07 Leviathan (permadeath mode)
 
-
+> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
     
 > [!TIP]
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
 <i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
 
->> **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
+> **An advanced customisation module** has been created by @cwmonkey to enable you to adapt the difficulty of Expeditions --> https://cwmonkey.github.io/nms-expeditions
 
 # 🚀 Why am I sharing my method?
 My "ReLive-NoMansSky-All Expeditions" project is aimed at Hero Travellers who want to test themselves against the requirements of the previous No Man's Sky expeditions. I've just got into the game and I was sorry I couldn't do them, learn the mechanics of the game and get the related rewards other than by "cheating" by adding them via a mod or save editor.
