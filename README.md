@@ -4,16 +4,16 @@
 💾 <i>No modification/influence on saves !!! No intervention on game files ...</i>  
 Available for Windows / MacOs & SteamDeck
 
-<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  
-I still need to check a few details on :  
-:on: Expedition 03bis (special vacation 2023)  
-:on: Expedition 07 Leviathan (permadeath mode)
-
 > **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
     
 > [!TIP]
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
 <i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
+
+<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  
+I still need to check a few details on :  
+:on: Expedition 03bis (special vacation 2023)  
+:on: Expedition 07 Leviathan (permadeath mode)
 
 **An advanced customisation module** has been created by @cwmonkey to enable you to adapt the difficulty of Expeditions --> https://cwmonkey.github.io/nms-expeditions
 
