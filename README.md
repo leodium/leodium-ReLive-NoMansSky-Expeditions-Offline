@@ -76,6 +76,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - https://github.com/Lenni009/nms-archive
 > - https://nmsportals.github.io/
 > - https://cwmonkey.github.io/nms-expeditions
+> - https://www.nexusmods.com/nomanssky/mods/2996
 
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
