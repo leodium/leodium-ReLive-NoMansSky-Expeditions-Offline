@@ -25,7 +25,6 @@ StartingSuitTechSlots value --> 8 (to have Tech slots available since they were 
 
 Bug ?
 ---
-- The Myth Beacon was already in the inventory at the start because it came from stage 3 of phase 5, which was to be carried out "in a community of Travellers".
 - No other bugs have been reported to date. Let me know if you have one :pm
 
 How do you do it?
