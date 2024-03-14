@@ -7,10 +7,12 @@
   "Hash": 317131019,
   "Title": "GAMEMODE_SEASONAL",
   "Subtitle": "GAMEMODE_SEASONAL_SUBTITLE",
-  "Description": "DEATH_QUOTE_31",
+  "Description": "UI_EXPED3_MAIN_DESC",
   "GameMode": {
     "PresetGameMode": "Normal"
   },
+  "CreateContextSaveDataMask": "^DEFAULT",
+  "SwitchContextSaveDataMask": "^DEFAULT",
   "SeasonalUAOverride": "00516b00fea97478",
   "UAOverrideValue": "0x516B00FEA97478",
   "FinalReward": "^RS_S3_COMPLETE",
@@ -197,78 +199,7 @@
     "Version": 0
   },
   "ShipInventory": {
-    "Slots": [
-      {
-        "Type": {
-          "InventoryType": "Technology"
-        },
-        "Id": "^SHIPJUMP_SPEC",
-        "Amount": 200,
-        "MaxAmount": 200,
-        "DamageFactor": 1,
-        "FullyInstalled": true,
-        "Index": {
-          "X": -1,
-          "Y": -1
-        }
-      },
-      {
-        "Type": {
-          "InventoryType": "Technology"
-        },
-        "Id": "^SHIP_LIFESUP",
-        "Amount": 120,
-        "MaxAmount": 120,
-        "DamageFactor": 1,
-        "FullyInstalled": true,
-        "Index": {
-          "X": -1,
-          "Y": -1
-        }
-      },
-      {
-        "Type": {
-          "InventoryType": "Technology"
-        },
-        "Id": "^HYPERDRIVE_SPEC",
-        "Amount": 0,
-        "MaxAmount": 120,
-        "DamageFactor": 1,
-        "FullyInstalled": true,
-        "Index": {
-          "X": -1,
-          "Y": -1
-        }
-      },
-      {
-        "Type": {
-          "InventoryType": "Technology"
-        },
-        "Id": "^SHIPSHIELD",
-        "Amount": 100,
-        "MaxAmount": 100,
-        "DamageFactor": 0,
-        "FullyInstalled": true,
-        "Index": {
-          "X": -1,
-          "Y": -1
-        }
-      },
-      {
-        "Type": {
-          "InventoryType": "Technology"
-        },
-        "Id": "^SHIPMINIGUN",
-        "Amount": 100,
-        "MaxAmount": 100,
-        "DamageFactor": 0,
-        "FullyInstalled": true,
-        "Index": {
-          "X": -1,
-          "Y": -1
-        }
-      }
-    ],
+    "Slots": [],
     "ValidSlotIndices": [],
     "Class": {
       "InventoryClass": "C"
@@ -697,7 +628,7 @@
           "DescriptionDone": "^UI_EXPED_BROKEN_SHIP2_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "Id": "^",
-          "Amount": 0,
+          "Amount": 1,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -1074,7 +1005,7 @@
           "DescriptionDone": "^UI_EXPED_BROKEN_SHIP3_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "Id": "^",
-          "Amount": 0,
+          "Amount": 1,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
@@ -1537,10 +1468,10 @@
         },
         {
           "Mission": "^GOT_BURIED_PROP",
-          "Title": "^UI_EXPED_GOT_BURIED_PROP_NAME",
-          "TitleUpper": "^UI_EXPED_GOT_BURIED_PROP_NAME_U",
-          "Description": "^UI_EXPED_GOT_BURIED_PROP_DESC",
-          "DescriptionDone": "^UI_EXPED_GOT_BURIED_PROP_DESC_D",
+          "Title": "^UI_EXPED_BURIED_PROP2_NAME",
+          "TitleUpper": "^UI_EXPED_BURIED_PROP2_NAME_U",
+          "Description": "^UI_EXPED_BURIED_PROP_DESC",
+          "DescriptionDone": "^UI_EXPED_BURIED_PROP_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "Id": "^",
           "Amount": 5,
