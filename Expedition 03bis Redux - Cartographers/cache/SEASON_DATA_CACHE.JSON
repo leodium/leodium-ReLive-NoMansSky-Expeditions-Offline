@@ -87,6 +87,8 @@
       "BreakTechOnDamageProbability": "Low"
     }
   },
+  "CreateContextSaveDataMask": "^DEFAULT",
+  "SwitchContextSaveDataMask": "^DEFAULT",
   "SeasonalUAOverride": "0060330003624cae",
   "UAOverrideValue": "0x60330003624CAE",
   "FinalReward": "^RS_S1_COMPLETE",
@@ -2715,10 +2717,10 @@
         },
         {
           "Mission": "^GOT_BURIED_PROP",
-          "Title": "^UI_EXPED_GOT_BURIED_PROP_NAME",
-          "TitleUpper": "^UI_EXPED_GOT_BURIED_PROP_NAME_U",
-          "Description": "^UI_EXPED_GOT_BURIED_PROP_DESC",
-          "DescriptionDone": "^UI_EXPED_GOT_BURIED_PROP_DESC_D",
+          "Title": "^UI_EXPED_BURIED_PROP2_NAME",
+          "TitleUpper": "^UI_EXPED_BURIED_PROP2_NAME_U",
+          "Description": "^UI_EXPED_BURIED_PROP_DESC",
+          "DescriptionDone": "^UI_EXPED_BURIED_PROP_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
           "Amount": 5,
