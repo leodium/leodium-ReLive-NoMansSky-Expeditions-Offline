@@ -20,6 +20,8 @@ Leviathan traps Travellers inside a time loop, and offers a taste of roguelike g
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+Added the ability to activate expedition via the Nexus desktop
+
 
 Bug ?
 ---
