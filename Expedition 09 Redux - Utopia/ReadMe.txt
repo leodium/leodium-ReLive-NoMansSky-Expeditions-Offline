@@ -22,7 +22,7 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 - EndTimeUTC value --> 2893423600
 Added the ability to activate shipping via the Nexus desktop
-Modified MileStones to be validated online by "shipment progress" MileStones taken from other shipments.
+Modified MileStones to be validated online by "expedition progress" MileStones taken from other expeditions.
 An incorrect mission statement. I can't find the right value to put back, but you can read the details in the mission log.
 
 Bug ?
