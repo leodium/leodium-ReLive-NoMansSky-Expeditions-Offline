@@ -22,6 +22,7 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 StartingSuitTechSlots value --> 8 (to have Tech slots available since they were mixed up with the inventory at the time)
+Added the ability to activate expedition via the Nexus desktop
 
 Bug ?
 ---
