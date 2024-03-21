@@ -16,6 +16,7 @@ Answer the call of the universe in a new community expedition. All participating
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+Added the ability to activate shipping via the Nexus desktop
 
 Bug ?
 ---
