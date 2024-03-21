@@ -21,6 +21,8 @@ Exobiology is focused primarily on discovering and interacting with the strange 
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
+Added the ability to activate expedition via the Nexus desktop
+
 
 Any tips or tricks? 
 ------
