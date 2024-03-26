@@ -12,7 +12,13 @@ You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% fi
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
-
+Tip
+-----
+Phase 03 Stage 02 "The Murkey Veil"
+The stage is to "visit" a swampy planet and it seems that the game only considers the stage to be validated when the "swampy planet" marker is "discovered for the 1st time when you land". 
+If it's been scanned with your freighter's scan, it's considered as just "re-visited" and not as "discovered for the 1st time when you land".
+I don't think I could do anything about that ... So you have to be careful ...
+--> @Geldric TM (https://steamcommunity.com/app/275850/discussions/0/4286936086674242135/?ctp=2#c6679473478677157085)
 
 Lore
 -----
