@@ -15,7 +15,9 @@ I still need to check a few details on :
 :on: Expedition 03bis (special vacation 2023)  
 :on: Expedition 07 Leviathan (permadeath mode)
 
-**An advanced customisation module** has been created by @cwmonkey to enable you to adapt the difficulty of Expeditions --> https://cwmonkey.github.io/nms-expeditions
+I use the json files from this joint **advanced customisation module** between myself and @cwmonkey to enable you to adapt the difficulty of Expeditions.
+(I dreamt it and he coded it masterfully) --> https://cwmonkey.github.io/nms-expeditions
+
 
 # 🚀 Why am I sharing my method?
 My "ReLive-NoMansSky-All Expeditions" project is aimed at Hero Travellers who want to test themselves against the requirements of the previous No Man's Sky expeditions. I've just got into the game and I was sorry I couldn't do them, learn the mechanics of the game and get the related rewards other than by "cheating" by adding them via a mod or save editor.
