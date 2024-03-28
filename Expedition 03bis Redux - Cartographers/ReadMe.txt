@@ -18,7 +18,7 @@ We're working on it.
 -------------
 This expedition Cartographers 03 Redux is a bit special. This is the second time HelloGames has re-released it. It allows you to obtain some of the most exciting and popular rewards from the 3 previous expeditions: the Jetpack Bubble Trail, Feasting Casque, Exotic Wingpack, Streamlined Jetpack, and the legendary Golden Vector starship.
 
->>> Have a look at the image linked above the ReadMe.txt : Rewards_Cartographers.png
+>>> Have a look at the image linked above the ReadMe.txt : Rewards_Cartographers.jpg
 
 
 Lore
