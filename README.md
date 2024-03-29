@@ -15,7 +15,7 @@ I still need to check a few details on :
 :on: Expedition 03bis (special vacation 2023)  
 :on: Expedition 07 Leviathan (permadeath mode)
 
-I use the json files from this joint **advanced customisation module** between myself and @cwmonkey to enable you to adapt the difficulty of Expeditions.
+I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
 (I dreamt it and he coded it masterfully) --> https://cwmonkey.github.io/nms-expeditions
 
 
