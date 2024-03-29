@@ -8,7 +8,9 @@ Available for Windows / MacOs & SteamDeck
     
 > [!TIP]
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
-<i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
+<i><b>We are Brave and Fearless Hero Travellers ...
+> 
+> 💪 </b> No need for CheatMode</i> 🏅
 
 > [!NOTE]
 > <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  but 💾 **A Expedition Mega Save Project by** [Geldric™](https://steamcommunity.com/app/275850/discussions/0/4286936086674242135) on Steam has enabled us to check everything so far!
