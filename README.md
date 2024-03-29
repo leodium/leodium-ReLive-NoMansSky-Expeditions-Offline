@@ -10,12 +10,13 @@ Available for Windows / MacOs & SteamDeck
 > Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
 <i><b>We are Brave and Fearless Hero Travellers ... 💪 </b> No need for CheatMode</i> 🏅
 
-<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  
+<b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  but 💾 **A Expedition Mega Save Project by** [Geldric™](https://steamcommunity.com/app/275850/discussions/0/4286936086674242135) on Steam has enabled us to check everything so far!
+
 I still need to check a few details on :  
 :on: Expedition 03bis (special vacation 2023)  
 :on: Expedition 07 Leviathan (permadeath mode)
 
-I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
+🙊 I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
 (I dreamt it and he coded it masterfully) --> https://cwmonkey.github.io/nms-expeditions
 
 
@@ -44,7 +45,7 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
  
 - [x] Step 04 : Restart "No Man's Sky" in Offline mode.
 
-:clapper: **A video was made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv)
+:clapper: **A video was made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv) on Youtube
 
 > [!TIP]
 ><i>The expedition json file has no interaction with the 'classic' game saves. And it is not overwritten by anything: OnLine or OffLine, unless you replace it yourself or HelloGames releases a new expedition. Only these two cases can cause a "problem".
