@@ -12,8 +12,8 @@ Available for Windows / MacOs & SteamDeck
 
 > [!NOTE]
 > <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  but 💾 **A Expedition Mega Save Project by** [Geldric™](https://steamcommunity.com/app/275850/discussions/0/4286936086674242135) on Steam has enabled us to check everything so far!
-
-🙊 I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
+> 
+> 🙊 I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
 (I dreamt it and he coded it masterfully) --> https://cwmonkey.github.io/nms-expeditions
 
 
