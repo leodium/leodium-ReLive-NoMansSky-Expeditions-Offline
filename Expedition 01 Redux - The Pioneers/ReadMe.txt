@@ -1,4 +1,4 @@
-[EndOfDebugExp(xxx).jpg]
+
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 01 Redux - The Pionners
@@ -7,7 +7,7 @@ Expedition 01 Redux - The Pionners
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
-You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
+You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% finished with this expedition.
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
@@ -24,8 +24,15 @@ EndTimeUTC value --> 2893423600 (so that it can still be done today)
 StartingSuitTechSlots value --> 8 (to have Tech slots available since they were mixed up with the inventory at the time)
 Added the ability to activate expedition via the Nexus desktop
 
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+
 Bug ?
 ---
+Couldn't move all the suit/ship modules to the tech slots, so you will need to move them manually.
 [(suggested correction)] -> (DisplayBug) Some of the rewards given during expeditions (technological improvements) don't appear in the inventory. They would appear if you used the refiner: so put the item in the refiner and put it back in your ship. 
 
 No others recorded to date. Let me know if you have one :p
