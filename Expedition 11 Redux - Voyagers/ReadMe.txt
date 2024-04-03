@@ -1,5 +1,4 @@
-[EndOfDebugExp(xxx).jpg]HelpForYou : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_with_redux_mission_im_having_an_awful/
-
+HelpForYou : https://www.reddit.com/r/NoMansSkyTheGame/comments/18u5z2e/please_help_with_redux_mission_im_having_an_awful/
 
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
@@ -9,11 +8,10 @@ Expedition 11 Redux - Voyagers
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
-You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
+You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% finished with this expedition.
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
-
 
 
 Lore

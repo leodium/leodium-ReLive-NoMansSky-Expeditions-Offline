@@ -3,13 +3,16 @@
 Expedition 12 - Omega
 =====================
 
-It's the actual expeditions always avalaible.
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
+You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% finished with this expedition.
 
 Have a good game ...
-[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]Lore
+[#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
+
+
+Lore
 -----
 Answer the call of the universe in a new community expedition. All participating Travellers begin a journey together on the beautiful planet Nafut Gamma, and plot a course through the galaxy. Explore, build, fight, and more through a diverse set of milestones, and unpick the threads of a mystery involving the past, the present, and what could be…
 
@@ -17,6 +20,7 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 Added the ability to activate shipping via the Nexus desktop
+
 Notes
 ------
 Some expeditions start with tech in inventory slots. You need to move them.
