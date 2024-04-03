@@ -25,6 +25,16 @@ Added the ability to activate shipping via the Nexus desktop
 Modified MileStones to be validated online by "expedition progress" MileStones taken from other expeditions.
 An incorrect mission statement. I can't find the right value to put back, but you can read the details in the mission log.
 
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+
+Warning : 
+This expedition does not let you go back to the Anomaly after it is completed. Once finished, you must delete the SEASON_DATA_CACHE.JSON file, replace it with another expedition, or go online and restart your game. This will put you on board the Anomaly in your original save, but you will not get a chance to send items back. You will still be able to copy your ship/multitool as normal.
+Required "upload your base" milestones have been replaced with other milestones since they cannot be completed offline.
+
 Bug ?
 ---
 None recorded to date. Let me know if you have one :p

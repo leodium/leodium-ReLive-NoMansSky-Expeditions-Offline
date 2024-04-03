@@ -1,11 +1,4 @@
-"Added the ability to activate expedition via the Nexus desktop
 
-Notes
-------
-Some expeditions start with tech in inventory slots. You need to move them.
-If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
-If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
-"
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 07 Redux - Leviathan
@@ -19,7 +12,6 @@ We're working on it.
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
 
-
 Lore
 -----
 Leviathan traps Travellers inside a time loop, and offers a taste of roguelike gameplay. Difficulty is tuned to survival mode settings, and every death means a reset of the loop.
@@ -29,6 +21,13 @@ Changes to the SEASON_DATA_CACHE.json file
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 Added the ability to activate expedition via the Nexus desktop
 
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+
+Warning: This expedition has a milestone to die. If you do the milestone on Permadeath, your expedition and main save will be deleted!
 
 Bug ?
 ---

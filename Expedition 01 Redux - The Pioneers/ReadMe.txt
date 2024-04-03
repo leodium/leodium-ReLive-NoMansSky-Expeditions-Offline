@@ -1,11 +1,4 @@
-"Added the ability to activate expedition via the Nexus desktop
 
-Notes
-------
-Some expeditions start with tech in inventory slots. You need to move them.
-If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
-If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
-"
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 01 Redux - The Pionners
@@ -18,8 +11,6 @@ You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% fi
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
-
-
 
 Lore
 -----
@@ -39,9 +30,7 @@ If you start your game in online mode after starting an offline expedition, your
 
 Bug ?
 ---
-Couldn't move all the suit/ship modules to the tech slots, so you will need to move them manually.
 [(suggested correction)] -> (DisplayBug) Some of the rewards given during expeditions (technological improvements) don't appear in the inventory. They would appear if you used the refiner: so put the item in the refiner and put it back in your ship. 
-
 No others recorded to date. Let me know if you have one :p
 
 How do you do it?

@@ -1,4 +1,4 @@
-[EndOfDebugExp(xxx).jpg]
+
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 08 Redux - Polestar
@@ -7,7 +7,7 @@ Expedition 08 Redux - Polestar
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
-You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% finished with this expedition.
+You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% finished with this expedition.
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
@@ -23,6 +23,14 @@ Changes to the SEASON_DATA_CACHE.json file
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 Added the ability to activate shipping via the Nexus desktop
 Modified MileStones to be validated online by "expedition progress" MileStones taken from other expeditions.
+
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+
+Warning : The optional milestone to board another player's freighter has been replaced with a nautical themed milestone to go along with crafting a Nautilus
 
 Bug ?
 ---

@@ -1,11 +1,4 @@
-"Added the ability to activate expedition via the Nexus desktop
 
-Notes
-------
-Some expeditions start with tech in inventory slots. You need to move them.
-If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
-If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
-"[EndOfDebugExp(xxx).jpg]
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 03 Redux - Cartographers
@@ -19,8 +12,6 @@ You can see from the screenshots above [EndOfDebugExp(xxx).png] that I'm 100% fi
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
-
-
 Lore
 -----
 Cartographers is focused primarily on deep exploration of a single planet. This season places all expeditioners on the toxic world of Gisto Major, where their bespoke starship will require specialist attention to repair and launch into space.
@@ -31,6 +22,11 @@ EndTimeUTC value --> 2893423600 (so that it can still be done today)
 StartingSuitTechSlots value --> 16 (to have Tech slots available since they were mixed up with the inventory at the time)
 Added the ability to activate expedition via the Nexus desktop
 
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
 
 Bug ?
 ---

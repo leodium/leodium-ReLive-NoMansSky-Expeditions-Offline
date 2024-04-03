@@ -1,11 +1,4 @@
-"Added the ability to activate expedition via the Nexus desktop
 
-Notes
-------
-Some expeditions start with tech in inventory slots. You need to move them.
-If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
-If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
-"[EndOfDebugExp(xxx).jpg]
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
 Expedition 05 Redux - Exobiology
@@ -35,6 +28,11 @@ Any tips or tricks?
 ------
 Once you've found all the eggs in step 02 of Phase 3, you'll have the Nutrient Processor plan. Once it's built, there will be a new inventory that will unlock 'only' for food. This may help you to keep only your Honey Cake visible for Chronos ....
 
+Notes
+------
+Some expeditions start with tech in inventory slots. You need to move them.
+If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
+If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
 
 Bug ?
 ---
