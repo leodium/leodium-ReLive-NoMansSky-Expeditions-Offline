@@ -4391,7 +4391,7 @@
       }
     ]
   },
-  "ResetSaveOnDeath": true,
+  "ResetSaveOnDeath": false,
   "StatsToPersistOnReset": [
     {
       "GroupId": "^GLOBAL_STATS",
