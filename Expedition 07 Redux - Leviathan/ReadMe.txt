@@ -29,6 +29,10 @@ If you start your game in online mode after starting an offline expedition, your
 
 Warning: This expedition has a milestone to die. If you do the milestone on Permadeath, your expedition and main save will be deleted!
 
+Notice
+------
+The NMS Orbitals update seems to have broken this expedition. Specifically the "ResetSaveOnDeath" mechanic seems to break your save file. The patch below will remove the "reset save on death" mechanic. If your save is broken, you will need to use a save editor to fix it. Renaming the "ExpeditionContext" key (or deleting the object if you know what you're doing) in the JSON should work. Make a backup of your save first just in case.
+
 Bug ?
 ---
 None recorded to date. Let me know if you have one :p
