@@ -3344,7 +3344,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/mission.minscan.off.dds"
           },
-          "Reward": "^RS_S9_S5M5",
+          "Reward": "^RS_S9_S5M6",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
@@ -3394,7 +3394,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.leavesystem.off.dds"
           },
-          "Reward": "^RS_S9_S5M6",
+          "Reward": "^R_ENABLENEXUS",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
