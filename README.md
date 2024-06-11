@@ -80,6 +80,8 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - https://nmsportals.github.io/
 > - https://cwmonkey.github.io/nms-expeditions
 > - https://www.nexusmods.com/nomanssky/mods/2996
+> - https://gamerant.com/no-mans-sky-best-ship-weapons-ranked/
+> - https://gamerant.com/tag/no-mans-sky/
 
 - https://nomanssky.fandom.com/wiki/List_of_Expeditions
 - https://app.nmsassistant.com/helloGames/seasonExpedition
