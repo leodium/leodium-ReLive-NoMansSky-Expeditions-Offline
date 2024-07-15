@@ -6,11 +6,7 @@ Available for Windows / MacOs & SteamDeck
 
 > **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
     
-> [!TIP]
-> Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
-<i><b>We are Brave and Fearless Hero Travellers ...
-> 
-> 💪 </b> No need for CheatMode</i> 🏅
+
 
 > [!NOTE]
 > <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  but 💾 **A Expedition Mega Save Project by** [Geldric™](https://steamcommunity.com/app/275850/discussions/0/4286936086674242135) on Steam has enabled us to check everything so far!
@@ -18,6 +14,11 @@ Available for Windows / MacOs & SteamDeck
 > 🙊 I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
 (I dreamt it and he coded it masterfully) --> https://cwmonkey.github.io/nms-expeditions
 
+> [!TIP]
+> Progression through the stages preserved so that rewards can only be obtained when the objectives have been reached in order to earn them ... After all, we're hero explorers!
+<i><b>We are Brave and Fearless Hero Travellers ...
+> 
+> 💪 </b> No need for CheatMode</i> 🏅
 
 # 🚀 Why am I sharing my method?
 My "ReLive-NoMansSky-All Expeditions" project is aimed at Hero Travellers who want to test themselves against the requirements of the previous No Man's Sky expeditions. I've just got into the game and I was sorry I couldn't do them, learn the mechanics of the game and get the related rewards other than by "cheating" by adding them via a mod or save editor.
