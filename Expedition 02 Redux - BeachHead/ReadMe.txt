@@ -20,6 +20,11 @@ If it's been scanned with your freighter's scan, it's considered as just "re-vis
 I don't think I could do anything about that ... So you have to be careful ...
 --> @Geldric TM (https://steamcommunity.com/app/275850/discussions/0/4286936086674242135/?ctp=2#c6679473478677157085)
 
+Phase 05 Stage 03 "Acquire the Myth Beacon"
+Acquiring the Myth Beacon will require 80 Quicksilver. At that stage you'll probably have only 45, and won't have access to Nexus Quicksilver missions (downside of being offline).
+The easiest way to get around that is to collect more flux readings for Nada, since they reward 15 Quicksilver each. If you do 3 more, you'll have 90 Quicksilver.
+Alternatively, you can enable Nexus Quicksilver missions in the save file (see https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/discussions/5#discussioncomment-10136384)
+
 Lore
 -----
 Crossover event with Mass Effect, awarding the SSV Normandy SR1
