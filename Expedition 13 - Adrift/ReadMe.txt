@@ -31,7 +31,7 @@ Warning : The optional research milestones couldn't be done offline, so a patch 
 
 Bug ?
 ---
-None recorded to date. Let me know if you have one :p
+1) The Phase 4 reward (Ship of the Damned frigate) cannot be claimed as it crashes your game when you try. Finishing all the other milestones in this Phase will unlock the Ship of the Damned on your account, so you can still claim it at the QuickSilver vendor. The expedition will work (and end) as normal apart from not being able to claim this reward.
 
 How do you do it?
 ------------------
