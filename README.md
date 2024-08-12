@@ -7,8 +7,9 @@ Available for Windows / MacOs & SteamDeck
 > **The full archive can be downloaded here** : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/releases
     
 
-
 > [!NOTE]
+> A few changes may have been made to the original progression because, with successive updates from Hellogames, certain references in the game's database have changed and, as a result, we've had to adapt by sometimes modifying an intermediate mission that is no longer possible ... But don't worry: the main rewards and the original storyline have been respected.
+>
 > <b>Confidence : I'm in the process of redoing/revisiting (for) myself the expeditions myself to check them ... </b>  but 💾 **A Expedition Mega Save Project by** [Geldric™](https://steamcommunity.com/app/275850/discussions/0/4286936086674242135) on Steam has enabled us to check everything so far!
 > 
 > 🙊 I use the json files from this joint **advanced customisation module** between myself and *@cwmonkey* to enable you to adapt the difficulty of Expeditions.
