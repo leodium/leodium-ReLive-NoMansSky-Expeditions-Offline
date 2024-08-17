@@ -19,6 +19,7 @@ Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
 Added the ability to activate shipping via the Nexus desktop
+The Phase 4 become optional because the reward (the Ship of the Damned freighter) is broken. Claiming this reward will crash your game. Unlocking this reward will still unlock the Ship of the Damned freighter in the Quicksilver vendor, you just can't claim it on the expedition. To end the expedition you must replace the SEASON_DATA_CACHE.JSON with one from a different season, or restart the game in online mode.
 
 Notes
 ------
