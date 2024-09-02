@@ -123,10 +123,10 @@
   "ShipType": {
     "ShipClass": "Fighter"
   },
-  "StartWithFreighter": false,
+  "StartWithFreighter": true,
   "FreighterBaseOverrideFilename": "",
   "FreighterRace": {
-    "AlienRace": "None"
+    "AlienRace": "Trader"
   },
   "StartAboardFreighter": false,
   "ValidSpawnBuildings": [
@@ -1487,19 +1487,19 @@
           }
         },
         {
-          "Mission": "^GET_ASTEROIDS",
-          "Title": "^UI_EXPED_ASTEROIDS_NAME",
-          "TitleUpper": "^UI_EXPED_ASTEROIDS_NAME_U",
-          "Description": "^UI_EXPED_ASTEROIDS_DESC",
-          "DescriptionDone": "^UI_EXPED_ASTEROIDS_DESC_D",
+          "Mission": "^GOT_BURIED_PROP",
+          "Title": "^UI_EXPED_BURIED_PROP2_NAME",
+          "TitleUpper": "^UI_EXPED_BURIED_PROP2_NAME_U",
+          "Description": "^UI_EXPED_BURIED_PROP_DESC",
+          "DescriptionDone": "^UI_EXPED_BURIED_PROP_DESC_D",
           "CantRewardMessage": "^INTRCT_NOROOM_L",
           "IdToUseInMissionData": "^",
-          "Amount": 40,
+          "Amount": 1,
           "StageIndex": 0,
           "MilestoneIndex": 0,
           "RendezvousIndex": -1,
           "Icon": {
-            "Filename": "textures/ui/frontend/icons/expedition/patch.mapfreighter.dds"
+            "Filename": "textures/ui/frontend/icons/expedition/patch.undergroundtreasure.dds"
           },
           "IconGrey": {
             "Filename": "textures/ui/frontend/icons/expedition/patch.captainfreighter.dds"
@@ -1513,7 +1513,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.freighter.off.dds"
           },
-          "Reward": "^RS_S6_S1M3",
+          "Reward": "^R_PIRATE_MAP0",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
