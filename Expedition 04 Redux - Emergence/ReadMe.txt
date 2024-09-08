@@ -46,5 +46,5 @@ d) Restart "No Man's Sky" in offline mode and start a new game "Expedition".
 
 
 
-If you have any problems, please contact me =p
-.Leodium
+If you have any problems, please contact us =p
+.Leodium & .CwMonkey

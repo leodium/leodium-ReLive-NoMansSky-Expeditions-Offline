@@ -49,6 +49,5 @@ c) Replace the file in your [cache] directory with the one you've just downloade
 d) Restart "No Man's Sky" in offline mode and start a new game "Expedition".
 
 
-
-If you have any problems, please contact me =p
-.Leodium
+If you have any problems, please contact us =p
+.Leodium & .CwMonkey

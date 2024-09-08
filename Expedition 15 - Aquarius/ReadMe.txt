@@ -1,26 +1,24 @@
-
 ¯⁠\⁠_⁠(⁠ツ⁠)⁠_⁠/⁠¯ (⁠⊙⁠_⁠◎⁠)
 
-Expedition 01 Redux - The Pionners
-==================================
+Expedition 15 - Aquarius
+=====================
 
 This file is approved by Polo & Nada.
 It is playable & 100% functional.
 All rewards will be accessible from your other saves.
-You can see from the screenshots above [EndOfDebugExp(xxx).jpg] that I'm 100% finished with this expedition.
 
 Have a good game ...
 [#NexusEntreprise™ owned by 16/16/16 & (⁠⊙⁠_⁠◎⁠) ]
 
+
 Lore
 -----
-Pioneers is focused on challenging players to complete an impressive variety of tasks across the galaxy, ranging from finding ancient artifacts to travelling through black holes, rewarding them with a gold-covered ship from long ago.
+Step into an empty universe, where you will find yourself surrounded by other Travellers… yet somehow still alone. The galaxy has been abandoned. There is no life to be seen anywhere – no aliens, no operational space stations, none of the usual network of shops and buildings.
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
 EndTimeUTC value --> 2893423600 (so that it can still be done today)
-StartingSuitTechSlots value --> 8 (to have Tech slots available since they were mixed up with the inventory at the time)
-Added the ability to activate expedition via the Nexus desktop
+Added the ability to activate shipping via the Nexus desktop
 
 Notes
 ------
@@ -30,8 +28,7 @@ If you start your game in online mode after starting an offline expedition, your
 
 Bug ?
 ---
-[(suggested correction)] -> (DisplayBug) Some of the rewards given during expeditions (technological improvements) don't appear in the inventory. They would appear if you used the refiner: so put the item in the refiner and put it back in your ship. 
-No others recorded to date. Let me know if you have one :p
+None recorded to date. Let me know if you have one :p
 
 How do you do it?
 ------------------
