@@ -13,7 +13,7 @@ Have a good game ...
 
 Lore
 -----
-Step into an empty universe, where you will find yourself surrounded by other Travellers… yet somehow still alone. The galaxy has been abandoned. There is no life to be seen anywhere – no aliens, no operational space stations, none of the usual network of shops and buildings.
+Go on a quest across the galaxy to catch fish, gather stories, and think about the one that got away… Players who complete the Aquarius expedition will earn a beautifully detailed set of deep-sea customisation parts, including a unique underwater jetpack.
 
 Changes to the SEASON_DATA_CACHE.json file
 ------
