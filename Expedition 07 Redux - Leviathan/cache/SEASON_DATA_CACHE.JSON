@@ -16,7 +16,7 @@
     "PresetGameMode": "Normal"
   },
   "DifficultySettingPreset": {
-    "DifficultyPresetType": "Survival"
+    "DifficultyPresetType": "Normal"
   },
   "DifficultyMinimums": {
     "SettingsLocked": false,
@@ -28,7 +28,7 @@
     "StartWithAllItemsKnown": false,
     "BaseAutoPower": false,
     "DeathConsequences": {
-      "DeathConsequencesDifficulty": "DestroyItems"
+      "DeathConsequencesDifficulty": "ItemGrave"
     },
     "DamageReceived": {
       "DamageReceivedDifficulty": "Normal"
@@ -4389,7 +4389,7 @@
       }
     ]
   },
-  "ResetSaveOnDeath": true,
+  "ResetSaveOnDeath": false,
   "StatsToPersistOnReset": [
     {
       "GroupId": "^GLOBAL_STATS",
