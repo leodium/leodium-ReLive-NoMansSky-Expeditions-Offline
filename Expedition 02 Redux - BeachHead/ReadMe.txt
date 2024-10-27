@@ -40,6 +40,7 @@ Notes
 Some expeditions start with tech in inventory slots. You need to move them.
 If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
 If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+Phase 5, milestones 4 and 5 can no longer be completed in a reasonable amount of time. The target planet seems to be on the other side of the galaxy. Due to this issue, the milestones have unfortunately been replaced so the expedition can be completed.
 
 Bug ?
 ---
