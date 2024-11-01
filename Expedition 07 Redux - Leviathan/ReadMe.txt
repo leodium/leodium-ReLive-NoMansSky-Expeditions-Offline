@@ -37,6 +37,7 @@ The NMS Orbitals update seems to have broken this expedition. Specifically the "
 Bug ?
 ---
 Claiming frigate rewards currently crashes the game. To get around this a patch has been created to swap some rewards around and make Phase 5 “optional.” You cannot claim the frigate from the milestone, but after completing the expedition you can claim it from the QuickSilver vendor on the Anomaly.
+--> Expedition 07 Redux - Leviathan/EndOfDebugExp07c.jpg
 
 How do you do it?
 ------------------
