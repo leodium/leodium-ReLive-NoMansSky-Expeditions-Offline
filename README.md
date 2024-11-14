@@ -43,10 +43,13 @@ So I decided to modify the Hello Games json files and adapt them for my own use 
 > - 👉🏻 Steam Mac : ~/Library/Application Support/HelloGames/NMS/cache
 > - 👉🏻 MS Store/GOG : %APPDATA%\HelloGames\NMS\cache
 > - 👉🏻 SteamDeck : /home/deck/.steam/steam/steamapps/compatdata/275850/pfx/drive_c/Users/SteamUser/AppData/Roaming/HelloGames/NMS/cache
-Special method for Nintendo Switch from @gusklein
-> - 👉🏻 Nintendo Switch : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/discussions/36#discussioncomment-11244832
  
 - [x] Step 04 : Restart "No Man's Sky" in Offline mode.
+
+# Special method for Nintendo Switch from @gusklein
+> - 👉🏻 Nintendo Switch : https://github.com/leodium/leodium-ReLive-NoMansSky-Expeditions-Offline/discussions/36#discussioncomment-11244832
+
+
 
 :clapper: **Some videos were made on this subject by** [Dread Captain James](https://youtu.be/TDZ-pl7wDIU?si=SUzi0FzZSa5D7mWv) & [Professor Cynical](https://www.youtube.com/watch?v=SYVUtDImE_0) on Youtube and Craig Mark has added our links: https://www.nomansskyresources.com/expedition-mode
 
