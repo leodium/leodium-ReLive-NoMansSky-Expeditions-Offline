@@ -24,9 +24,15 @@ Added the ability to activate expedition via the Nexus desktop
 
 Notes
 ------
-Some expeditions start with tech in inventory slots. You need to move them.
-If you need Polo to show you Atlas stations, he won't do it UNLESS you also ask him to show you black holes. Then you will see both on your galaxy map.
-If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
+* Some expeditions start with tech in inventory slots. You need to move them.
+
+* The community milestones cannot be completed offline. A patch has been created to replace them with other milestones (ignore the message about Vile Spawns, you can collect them at any time). Unfortunately the Memory Fragments never upgrade.
+
+* Claiming frigate rewards currently crashes the game. A patch has been created to swap some rewards around and make the frigate reward milestone “optional.” You cannot claim the frigate from the milestone, but after completing the expedition you can claim it from the QuickSilver vendor on the Anomaly. To end the expedition and transfer items to your primary save: go to the Anomaly, open the expedition terminal, click “End Expedition”
+
+* This expedition breaks a lot, in particular the “reset save on death” mechanic. It is currently broken, so it has been disabled by default. Additionally, the difficulty settings were reduced to avoid getting stuck in a death loop.
+
+* If you start your game in online mode after starting an offline expedition, your game will likely crash when you load it. Just close the game and go offline and everything should be fine.
 
 Warning: This expedition has a milestone to die. If you do the milestone on Permadeath, your expedition and main save will be deleted!
 
