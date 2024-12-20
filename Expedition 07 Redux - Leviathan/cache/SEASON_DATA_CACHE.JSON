@@ -89,7 +89,7 @@
   "SwitchContextSaveDataMask": "^DEFAULT",
   "SeasonalUAOverride": "00601200056edf93",
   "UAOverrideValue": "0x601200056EDF93",
-  "FinalReward": "^RS_S7_PHASE5",
+  "FinalReward": "^RS_S7_COMPLETE",
   "FinalRewardSwitchAlt": "^",
   "FinalCantRewardMessage": "^INTRCT_NOROOM_L",
   "FinalRewardDescription": "",
@@ -3339,11 +3339,11 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/expeditionmissions/mission.freighter.off.dds"
           },
-          "Reward": "^RS_S7_COMPLETE",
+          "Reward": "^RS_S7_S5M5",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
-          "IsOptional": true,
+          "IsOptional": false,
           "IsRendezvous": false,
           "IsStageControl": false,
           "Encryption": {
@@ -3437,7 +3437,7 @@
           "MissionIconNotSelected": {
             "Filename": "textures/ui/frontend/icons/missions/mission.seasonal.off.dds"
           },
-          "Reward": "^RS_S7_S5M5",
+          "Reward": "^RS_S7_PHASE5",
           "RewardSwitchAlt": "^",
           "RewardDescription": "",
           "CantClaimRewardDescription": "",
