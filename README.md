@@ -1,3 +1,29 @@
+# 🚀 Project Moved to a New Home!  
+
+Hi everyone! 👋  
+
+This project is no longer maintained here. A much improved version is now available, thanks to [@cwmonkey](https://github.com/cwmonkey). 🎉  
+
+🔗 **New Project Repository:** [cwmonkey/nms-expeditions](https://github.com/cwmonkey/nms-expeditions)  
+🌍 **Live Website:** [nms-expeditions](https://cwmonkey.github.io/nms-expeditions/)  
+
+## ❓ Why the Move?  
+I ([@Leodium](https://github.com/leodium)) originally started this project, but [@cwmonkey](https://github.com/cwmonkey) has taken it to the next level with significant improvements and better maintenance. I highly recommend using the new version!  
+
+## 📢 What You Should Do  
+1. **If you are a user**: Please visit the new website for the latest features.  
+2. **If you are a developer**: Switch to contributing at the new repository.  
+3. **If you have issues or suggestions**: Report them on the [new GitHub Issues page](https://github.com/cwmonkey/nms-expeditions/issues).  
+
+This repository is now **archived** and will no longer receive updates. Thank you all for your support! ❤️  
+
+— **Leodium**  
+
+
+
+
+
+
 # ReLive-NoMansSky-Expeditions-Offline 
 
 :trophy: :man_astronaut: Replay ALL No Man's Sky Expeditions :star: :rocket: <i>with a simple copy/paste of a file into a directory ... </i>  
