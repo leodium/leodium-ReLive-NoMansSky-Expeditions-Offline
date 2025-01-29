@@ -4,8 +4,7 @@ Hi everyone! 👋
 
 This project is no longer maintained here. A much improved version is now available, thanks to [@cwmonkey](https://github.com/cwmonkey). 🎉  
 
-🔗 **New Project Repository:** [cwmonkey/nms-expeditions](https://github.com/cwmonkey/nms-expeditions)  
-🌍 **Live Website:** [nms-expeditions](https://cwmonkey.github.io/nms-expeditions/)  
+🌍 **Live Website:** [https://cwmonkey.github.io/nms-expeditions/](https://cwmonkey.github.io/nms-expeditions/)
 
 ## ❓ Why the Move?  
 I ([@Leodium](https://github.com/leodium)) originally started this project, but [@cwmonkey](https://github.com/cwmonkey) has taken it to the next level with significant improvements and better maintenance. I highly recommend using the new version!  
