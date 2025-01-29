@@ -1,5 +1,0 @@
-[quote=Nox;4298194004195449957]Some general feedback :
-
-It appears that the freighter definitions have changed with the introduction of pirate freighters.  The old original cache jsons now start the player off with a civilian freighter usually a non-capital freighter, but with a pirate bridge and pirate captain.
-
-This is only an actual problem for expedition 8 which requires a civilian captain in order to have a dialogue at each milestone waypoint.
